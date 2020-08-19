@@ -27,7 +27,7 @@ public class ShortestCommonAncestor {
         int numVertices = G.V();
 
         // Track whether each vertex has been found.
-        boolean[] found = new boolean[numVertices];  // RENAME TO visited  ??
+        boolean[] visited = new boolean[numVertices];
 
         //
 
@@ -37,12 +37,12 @@ public class ShortestCommonAncestor {
     /**
      * @param G
      * @param vertex
-     * @param found
+     * @param visited
      * @param departures
      * @param time
      * @return
      */
-    private static int DFS(Digraph G, int vertex, boolean[] found,
+    private static int dfs(Digraph G, int vertex, boolean[] visited,
                            int[] departures, int time) {
 
 
