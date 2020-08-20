@@ -43,6 +43,17 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
+  <component name="RunManager">
+    <configuration name="Outcast" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Outcast" />
+      <module name="COS 226" />
+      <option name="PROGRAM_PARAMETERS" value="outcast5.txt" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -53,6 +64,22 @@
     </todo-panel>
   </component>
   <component name="WindowStateProjectService">
+    <state width="1572" height="417" key="GridCell.Tab.0.bottom" timestamp="1597962343701">
+      <screen x="0" y="0" width="2498" height="1440" />
+    </state>
+    <state width="1572" height="417" key="GridCell.Tab.0.bottom/0.0.2498.1440@0.0.2498.1440" timestamp="1597962343701" />
+    <state width="1572" height="417" key="GridCell.Tab.0.center" timestamp="1597962343701">
+      <screen x="0" y="0" width="2498" height="1440" />
+    </state>
+    <state width="1572" height="417" key="GridCell.Tab.0.center/0.0.2498.1440@0.0.2498.1440" timestamp="1597962343701" />
+    <state width="1572" height="417" key="GridCell.Tab.0.left" timestamp="1597962343701">
+      <screen x="0" y="0" width="2498" height="1440" />
+    </state>
+    <state width="1572" height="417" key="GridCell.Tab.0.left/0.0.2498.1440@0.0.2498.1440" timestamp="1597962343701" />
+    <state width="1572" height="417" key="GridCell.Tab.0.right" timestamp="1597962343701">
+      <screen x="0" y="0" width="2498" height="1440" />
+    </state>
+    <state width="1572" height="417" key="GridCell.Tab.0.right/0.0.2498.1440@0.0.2498.1440" timestamp="1597962343701" />
     <state x="1374" y="328" width="672" height="678" key="search.everywhere.popup" timestamp="1597938160958">
       <screen x="0" y="0" width="2498" height="1440" />
     </state>

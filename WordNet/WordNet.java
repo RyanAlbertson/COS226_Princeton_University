@@ -141,8 +141,8 @@ public class WordNet {
      */
     public int distance(String noun1, String noun2) {
 
-        validate(noun1);
-        validate(noun2);
+        // validate(noun1);
+        // validate(noun2);
 
         // Get lists of all synsets that each corresponding noun is within.
         List<Integer> noun1Synsets = nouns.get(noun1);
