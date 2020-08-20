@@ -1,7 +1,5 @@
 import edu.princeton.cs.algs4.Digraph;
 import edu.princeton.cs.algs4.In;
-import edu.princeton.cs.algs4.StdIn;
-import edu.princeton.cs.algs4.StdOut;
 
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -119,10 +117,8 @@ public class WordNet {
      */
     public String sca(String noun1, String noun2) {
 
-        if (noun1 == null) throw new IllegalArgumentException("'noun1' is null.");
-        if (noun2 == null) throw new IllegalArgumentException("'noun2' is null.");
-        if (!isNoun(noun1)) throw new IllegalArgumentException("'noun1' not in WordNet");
-        if (!isNoun(noun2)) throw new IllegalArgumentException("'noun2' not in WordNet");
+        validate(noun1);
+        validate(noun2);
 
         // Get lists of all synsets that each corresponding noun is within.
         List<Integer> noun1Synsets = nouns.get(noun1);
@@ -145,10 +141,8 @@ public class WordNet {
      */
     public int distance(String noun1, String noun2) {
 
-        if (noun1 == null) throw new IllegalArgumentException("'noun1' is null.");
-        if (noun2 == null) throw new IllegalArgumentException("'noun2' is null.");
-        if (!isNoun(noun1)) throw new IllegalArgumentException("'noun1' not in WordNet");
-        if (!isNoun(noun2)) throw new IllegalArgumentException("'noun2' not in WordNet");
+        validate(noun1);
+        validate(noun2);
 
         // Get lists of all synsets that each corresponding noun is within.
         List<Integer> noun1Synsets = nouns.get(noun1);
@@ -158,21 +152,22 @@ public class WordNet {
     }
 
 
+    /**
+     * Checks that given parameter is valid for use in {@link #sca(String, String)}
+     * and {@link #distance(String, String)}.
+     *
+     * @param noun Noun to be checked.
+     */
+    private void validate(String noun) {
+
+        if (noun == null) throw new IllegalArgumentException();
+        if (!isNoun(noun)) throw new IllegalArgumentException();
+    }
+
+
     public static void main(String[] args) {
 
         // Unit test located at ~/Tests/WordNet_Test.java
-
-
-        In in = new In(args[0]);
-        Digraph G = new Digraph(in);
-        ShortestCommonAncestor sca = new ShortestCommonAncestor(G);
-        while (!StdIn.isEmpty()) {
-            int v = StdIn.readInt();
-            int w = StdIn.readInt();
-            int length = sca.length(v, w);
-            int ancestor = sca.ancestor(v, w);
-            StdOut.printf("length = %d, ancestor = %d\n", length, ancestor);
-        }
     }
 }
 

@@ -1,9 +1,16 @@
+import edu.princeton.cs.algs4.BreadthFirstDirectedPaths;
 import edu.princeton.cs.algs4.Digraph;
+import edu.princeton.cs.algs4.In;
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
 
-import java.util.Deque;
+import java.util.Collections;
 
 /**
+ * Implements methods to calculate shortest common ancestral paths between synsets
+ * within a {@link WordNet}.
  *
+ * @author Ryan Albertson
  */
 public class ShortestCommonAncestor {
 
@@ -94,81 +101,195 @@ public class ShortestCommonAncestor {
     }
 
 
-    // length of shortest ancestral path between v and w
+    /**
+     * Returns length of shortest ancestral path between given synsets.
+     *
+     * @param v Synset index.
+     * @param w Synset index.
+     */
     public int length(int v, int w) {
 
-        //check null and if synsets are out of range
+        Iterable<Integer> vToIterable = Collections.singletonList(v);
+        Iterable<Integer> wToIterable = Collections.singletonList(w);
 
+        validate(vToIterable);
+        validate(wToIterable);
+
+        calcSCA(vToIterable, wToIterable);
+
+        int getLength = length;
+
+        // Reset attributes for use in future calculations.
+        ancestor = Integer.MAX_VALUE;
+        length = Integer.MAX_VALUE;
+
+        return getLength;
     }
 
 
-    // a shortest common ancestor of vertices v and w
+    /**
+     * Returns index of shortest common ancestor synset of given synsets.
+     *
+     * @param v Synset index.
+     * @param w Synset index.
+     */
     public int ancestor(int v, int w) {
 
+        Iterable<Integer> vToIterable = Collections.singletonList(v);
+        Iterable<Integer> wToIterable = Collections.singletonList(w);
 
+        validate(vToIterable);
+        validate(wToIterable);
+
+        calcSCA(vToIterable, wToIterable);
+
+        int getAncestor = ancestor;
+
+        // Reset attributes for use in future calculations.
+        ancestor = Integer.MAX_VALUE;
+        length = Integer.MAX_VALUE;
+
+        return getAncestor;
     }
 
 
-    // length of shortest ancestral path of vertex subsets A and B
+    /**
+     * Returns shortest ancestral path between given sets of synsets.
+     *
+     * @param subsetA Set of synset indices.
+     * @param subsetB Set of synset indices.
+     */
     public int lengthSubset(Iterable<Integer> subsetA, Iterable<Integer> subsetB) {
 
-        //check null and if contains null, and if iterable contains zero vertices
+        validate(subsetA);
+        validate(subsetB);
+
+        calcSCA(subsetA, subsetB);
+
+        int getLength = length;
+
+        // Reset attributes for use in future calculations.
+        ancestor = Integer.MAX_VALUE;
+        length = Integer.MAX_VALUE;
+
+        return getLength;
     }
 
 
-    // a shortest common ancestor of vertex subsets A and B
+    /**
+     * Returns index of shortest common ancestor synset of given sets of synsets.
+     *
+     * @param v Set of synset indices.
+     * @param w Set of synset indices.
+     */
     public int ancestorSubset(Iterable<Integer> subsetA, Iterable<Integer> subsetB) {
 
+        validate(subsetA);
+        validate(subsetB);
 
+        calcSCA(subsetA, subsetB);
+
+        int getAncestor = ancestor;
+
+        // Reset attributes for use in future calculations.
+        ancestor = Integer.MAX_VALUE;
+        length = Integer.MAX_VALUE;
+
+        return getAncestor;
     }
 
 
     /**
      * Calculates both the shortest common ancestor and the shortest ancestral path
-     * between the given synset indices. {@code }
-     *
-     * @param v Index of a synset.
-     * @param w Index of a synset.
-     */
-    private void calcSCA(int v, int w) {
-
-        //
-
-
-    }
-
-
-    /**
-     * Overloaded {@link #calcSCA(int, int)} that alculates both the shortest
-     * common ancestor and the shortest ancestral path between the given sets
-     * of synset indices. The corresponding class attributes are then updated
-     * to reflect the calculations.
+     * between the given sets of synset indices. {@code ancestor} and {@code length}
+     * are updated according to the calculations.
      *
      * @param v Set of synset indices.
      * @param w Set of synset indices.
      */
     private void calcSCA(Iterable<Integer> v, Iterable<Integer> w) {
 
+        // Used to find shortest paths using BFS.
+        BreadthFirstDirectedPaths vPath = new BreadthFirstDirectedPaths(G, v);
+        BreadthFirstDirectedPaths wPath = new BreadthFirstDirectedPaths(G, w);
 
+        /* Check every vertex in graph, if 'v' and 'w' have a path to the vertex,
+         * then it's an ancestor. Then check if the sum of the paths is less than
+         * the current shortest ancestral path. */
+        for (int i = 0; i < G.V(); i++) {
+
+            int currentLength = vPath.distTo(i) + wPath.distTo(i);
+
+            if (vPath.hasPathTo(i) && wPath.hasPathTo(i) && currentLength < length) {
+
+                length = currentLength;
+                ancestor = i;
+            }
+        }
     }
 
 
     /**
-     * @param deque1
-     * @param dist1
-     * @param dist2
-     * @param visited
-     * @param inPath
+     * Check that given parameter is valid for use in {@link #lengthSubset(Iterable,
+     * Iterable)} and {@link #ancestorSubset(Iterable, Iterable)}.
+     *
+     * @param synsetIds Set of synset indices to check.
      */
-    private void bfs(Deque<Integer> deque1, int[] dist1, int[] dist2, boolean[] visited,
-                     boolean inPath) {
+    private void validate(Iterable<Integer> synsetIds) {
 
-
+        if (synsetIds == null) throw new IllegalArgumentException();
+        if (synsetIds.spliterator().getExactSizeIfKnown() == 0) {
+            throw new IllegalArgumentException();
+        }
+        for (Integer id : synsetIds) {
+            if (id == null) throw new IllegalArgumentException();
+            if (id >= G.V()) throw new IllegalArgumentException();
+        }
     }
 
 
+    /**
+     * Unit test.
+     */
     public static void main(String[] args) {
 
-        // Unit test located at ~/Tests/ShortestCommonAncestor_Test.java
+        // Below is a provided test client.
+        In in = new In(args[0]);
+        Digraph G = new Digraph(in);
+        ShortestCommonAncestor sca = new ShortestCommonAncestor(G);
+        while (!StdIn.isEmpty()) {
+            int v = StdIn.readInt();
+            int w = StdIn.readInt();
+            int length = sca.length(v, w);
+            int ancestor = sca.ancestor(v, w);
+            StdOut.printf("length = %d, ancestor = %d\n", length, ancestor);
+        }
+
+        // In in = new In("digraph25.txt");
+        // Digraph G = new Digraph(in);
+        // ShortestCommonAncestor sca = new ShortestCommonAncestor(G);
+        // System.out.println("Testing single vertex shortest common ancestor:");
+        // System.out.println("Ancestor 1 + 4: " + sca.ancestor(1, 4));
+        // System.out.println("Distance between 1 and 4: " + sca.length(1, 4));
+        // System.out.println();
+        // System.out.println("Ancestor 13 + 22: " + sca.ancestor(13, 22));
+        // System.out.println("Distance between 13 and 22: " + sca.length(13, 22));
+        // System.out.println();
+        // System.out.println("Ancestor 23 + 22: " + sca.ancestor(23, 22));
+        // System.out.println("Distance between 23 and 22: " + sca.length(23, 22));
+        // System.out.println();
+        // System.out.println("Testing multiple vertex shortest common ancestor:");
+        // System.out.println("Ancestor {7,21} and {4}: " + sca.ancestorSubset(new ArrayList<>(
+        //         Arrays.asList(7, 21)), new ArrayList<>(Arrays.asList(4))));
+        // System.out.println("Distance between 7,21 and 4: " + sca
+        //         .lengthSubset(new ArrayList<>(Arrays.asList(7, 21)),
+        //                       new ArrayList<>(Arrays.asList(4))));
+        // System.out.println();
+        // System.out.println("Ancestor {13,23,24} and {6,16,17}: " + sca
+        //         .ancestorSubset(new ArrayList<>(Arrays.asList(13, 23, 24)),
+        //                         new ArrayList<>(Arrays.asList(6, 16, 17))));
+        // System.out.println("Distance between 13,23,24 and 6,16,17: " + sca
+        //         .lengthSubset(new ArrayList<>(Arrays.asList(13, 23, 24)),
+        //                       new ArrayList<>(Arrays.asList(6, 16, 17))));
     }
 }
