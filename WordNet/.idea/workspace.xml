@@ -52,22 +52,10 @@
       <is-autoscroll-to-source value="true" />
     </todo-panel>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/ShortestCommonAncestor.java</url>
-          <line>10</line>
-          <properties field="HASH_INITIAL" class="ShortestCommonAncestor" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/ShortestCommonAncestor.java</url>
-          <line>11</line>
-          <properties field="HASH_MULTIPLIER" class="ShortestCommonAncestor" />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="WindowStateProjectService">
+    <state x="1374" y="328" width="672" height="678" key="search.everywhere.popup" timestamp="1597938160958">
+      <screen x="0" y="0" width="2498" height="1440" />
+    </state>
+    <state x="1374" y="328" width="672" height="678" key="search.everywhere.popup/0.0.2498.1440@0.0.2498.1440" timestamp="1597938160958" />
   </component>
 </project>

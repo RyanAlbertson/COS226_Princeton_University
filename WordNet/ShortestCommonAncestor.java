@@ -1,6 +1,5 @@
 import edu.princeton.cs.algs4.Digraph;
 
-import java.util.ArrayDeque;
 import java.util.Deque;
 
 /**
@@ -8,30 +7,19 @@ import java.util.Deque;
  */
 public class ShortestCommonAncestor {
 
-    private static final int HASH_INITIAL = 17;
-    private static final int HASH_MULTIPLIER = 31;
+    // Store a copy of the given Digraph.
+    private final Digraph G;
 
-    private final Digraph G;                 //
-    private final int numVertices;           //
+    // Track shortest common ancestor of current calculation.
+    private int ancestor;
 
-    private int length;                      // length of the shortest path between V and W
-    private int ancestor;                    // the nearest ancestor of V and W
-    private int vLast;                       // most recent visited input v
-    private int wLast;                       // most recent visited input w
-    private int[] distTo1;                   // distTo1[v] = length of shortest V->v path
-    private int[] distTo2;                   // distTo2[v] = length of shortest W->v path
-    private boolean[] marked1;               // marked1[v] = is there an V->v path?
-    private boolean[] marked2;               // marked2[v] = is there an W->v path?
-
-    private final Deque<Integer> q1;
-    private final Deque<Integer> q2;
-    private final Deque<Integer> visited1;   // visited entries when accessing v
-    private final Deque<Integer> visited2;   // visited entries when accessing w
+    // Track length of shortest common ancestral path of current calculation.
+    private int length;
 
 
     /**
-     * Constructs a copy of the given {@code Digraph} along with attributes that
-     * are used across the class methods.
+     * Constructs a copy of the given {@link edu.princeton.cs.algs4.Digraph#Digraph(Digraph)}
+     * along with attributes that are used across the class methods.
      *
      * @param G A directed graph, not necessarily a DAG.
      */
@@ -42,22 +30,16 @@ public class ShortestCommonAncestor {
         if (!isDAG(G)) throw new IllegalArgumentException("'G' is not a DAG.");
 
         this.G = new Digraph(G);
-        numVertices = G.V();
-        distTo1 = new int[G.V()];
-        distTo2 = new int[G.V()];
-        marked1 = new boolean[G.V()];
-        marked2 = new boolean[G.V()];
-        q1 = new ArrayDeque<>();
-        q2 = new ArrayDeque<>();
-        visited1 = new ArrayDeque<>();
-        visited2 = new ArrayDeque<>();
+        ancestor = Integer.MAX_VALUE;
+        length = Integer.MAX_VALUE;
     }
 
 
     /**
-     * Returns true if given {@code Digraph} is acyclic, false otherwise.
+     * Returns true if given {@link edu.princeton.cs.algs4.Digraph#Digraph(Digraph)}
+     * is acyclic, false otherwise.
      *
-     * @param G {@code Digraph} to be tested for acyclicity.
+     * @param G Digraph to be tested for acyclicity.
      */
     private static boolean isDAG(Digraph G) {
 
@@ -77,9 +59,10 @@ public class ShortestCommonAncestor {
 
 
     /**
-     * Returns true if a cycle if found in the given graph, false otherwise.
+     * Returns true if a cycle if found in the given
+     * {@link edu.princeton.cs.algs4.Digraph#Digraph(Digraph)}, false otherwise.
      *
-     * @param G       {@code Digraph} to be tested for acyclicity.
+     * @param G       Digraph to be tested for acyclicity.
      * @param node    Current node in the search.
      * @param visited Tracks the visited nodes throughout entire search.
      * @param inPath  Tracks visited nodes within current recursive search.
@@ -114,6 +97,7 @@ public class ShortestCommonAncestor {
     // length of shortest ancestral path between v and w
     public int length(int v, int w) {
 
+        //check null and if synsets are out of range
 
     }
 
@@ -128,12 +112,56 @@ public class ShortestCommonAncestor {
     // length of shortest ancestral path of vertex subsets A and B
     public int lengthSubset(Iterable<Integer> subsetA, Iterable<Integer> subsetB) {
 
-
+        //check null and if contains null, and if iterable contains zero vertices
     }
 
 
     // a shortest common ancestor of vertex subsets A and B
     public int ancestorSubset(Iterable<Integer> subsetA, Iterable<Integer> subsetB) {
+
+
+    }
+
+
+    /**
+     * Calculates both the shortest common ancestor and the shortest ancestral path
+     * between the given synset indices. {@code }
+     *
+     * @param v Index of a synset.
+     * @param w Index of a synset.
+     */
+    private void calcSCA(int v, int w) {
+
+        //
+
+
+    }
+
+
+    /**
+     * Overloaded {@link #calcSCA(int, int)} that alculates both the shortest
+     * common ancestor and the shortest ancestral path between the given sets
+     * of synset indices. The corresponding class attributes are then updated
+     * to reflect the calculations.
+     *
+     * @param v Set of synset indices.
+     * @param w Set of synset indices.
+     */
+    private void calcSCA(Iterable<Integer> v, Iterable<Integer> w) {
+
+
+    }
+
+
+    /**
+     * @param deque1
+     * @param dist1
+     * @param dist2
+     * @param visited
+     * @param inPath
+     */
+    private void bfs(Deque<Integer> deque1, int[] dist1, int[] dist2, boolean[] visited,
+                     boolean inPath) {
 
 
     }
