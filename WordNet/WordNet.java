@@ -1,8 +1,11 @@
 import edu.princeton.cs.algs4.Digraph;
 import edu.princeton.cs.algs4.In;
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
 
 import java.util.HashMap;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.StringTokenizer;
 
 /**
@@ -30,7 +33,7 @@ public class WordNet {
      *
      * @param synsets   CSV file name containing synsets of nouns.
      * @param hypernyms CSV file name containing hypernyms of the same nouns.
-     * @throws IllegalArgumentException If 'synsets' or 'hypernoun' is null.
+     * @throws IllegalArgumentException If {@code synsets} or {@code hypernyms} is null.
      */
     public WordNet(String synsets, String hypernyms) {
 
@@ -84,7 +87,7 @@ public class WordNet {
 
 
     /**
-     * Returns an iterable of all nouns in this WordNet.
+     * Returns an iterable of all nouns in this {@code WordNet}.
      */
     public Iterable<String> nouns() {
 
@@ -93,9 +96,10 @@ public class WordNet {
 
 
     /**
-     * Returns true if given string is a noun in this WordNet, false otherwise.
+     * Returns true if given string is a noun in this {@code WordNet}, false otherwise.
      *
      * @param word String to be checked.
+     * @throws IllegalArgumentException If {@code word} is null.
      */
     public boolean isNoun(String word) {
 
@@ -105,23 +109,108 @@ public class WordNet {
     }
 
 
-    // a synset (second field of synsets.txt) that is a shortest common ancestor
-    // of noun1 and noun2 (defined below)
+    /**
+     * Returns the synset which is the shortest common ancestor of the 2 given nouns.
+     *
+     * @param noun1 Returned synset contains this noun.
+     * @param noun2 Returned synset contains this noin.
+     * @throws IllegalArgumentException If either {@code noun1} or {@code noun2} is
+     *                                  null or if either is not a noun in this {@code WordNet}.
+     */
     public String sca(String noun1, String noun2) {
 
+        if (noun1 == null) throw new IllegalArgumentException("'noun1' is null.");
+        if (noun2 == null) throw new IllegalArgumentException("'noun2' is null.");
+        if (!isNoun(noun1)) throw new IllegalArgumentException("'noun1' not in WordNet");
+        if (!isNoun(noun2)) throw new IllegalArgumentException("'noun2' not in WordNet");
 
+        // Get lists of all synsets that each corresponding noun is within.
+        List<Integer> noun1Synsets = nouns.get(noun1);
+        List<Integer> noun2Synsets = nouns.get(noun2);
+
+        // Calculate synset index of shortest common ancestor.
+        int ancestorIdx = shortestCommonAncestor.ancestorSubset(noun1Synsets, noun2Synsets);
+
+        return synsets.get(ancestorIdx);
     }
 
 
-    // distance between noun1 and noun2 (defined below)
+    /**
+     * Returns distance of the shortest ancestral path between the given nouns.
+     *
+     * @param noun1 Shortest ancestral path considers this noun.
+     * @param noun2 Shortest ancestral path considers this noun.
+     * @throws IllegalArgumentException If either {@code noun1} or {@code noun2} is
+     *                                  null or if either is not a noun in this {@code WordNet}.
+     */
     public int distance(String noun1, String noun2) {
 
+        if (noun1 == null) throw new IllegalArgumentException("'noun1' is null.");
+        if (noun2 == null) throw new IllegalArgumentException("'noun2' is null.");
+        if (!isNoun(noun1)) throw new IllegalArgumentException("'noun1' not in WordNet");
+        if (!isNoun(noun2)) throw new IllegalArgumentException("'noun2' not in WordNet");
 
+        // Get lists of all synsets that each corresponding noun is within.
+        List<Integer> noun1Synsets = nouns.get(noun1);
+        List<Integer> noun2Synsets = nouns.get(noun2);
+
+        return shortestCommonAncestor.lengthSubset(noun1Synsets, noun2Synsets);
     }
 
 
     public static void main(String[] args) {
 
         // Unit test located at ~/Tests/WordNet_Test.java
+
+
+        In in = new In(args[0]);
+        Digraph G = new Digraph(in);
+        ShortestCommonAncestor sca = new ShortestCommonAncestor(G);
+        while (!StdIn.isEmpty()) {
+            int v = StdIn.readInt();
+            int w = StdIn.readInt();
+            int length = sca.length(v, w);
+            int ancestor = sca.ancestor(v, w);
+            StdOut.printf("length = %d, ancestor = %d\n", length, ancestor);
+        }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
