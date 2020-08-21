@@ -19,10 +19,9 @@
   </tr>
   <tr>
     <td>
-      <div class="box">
+     <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment1">
         <img src="./Assignment1/resources/logo.png" width = 200>
-        <span style="[*Assignment 1*](https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment1)<br></br>_Percolation_"></span>
-      </div>
+     </a>       
     </td>
     <td> This project was about </td>
     <td> In this project I learned </td>
