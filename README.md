@@ -23,13 +23,62 @@
         <img src="./Assignment1/resources/logo.png" width = 200>
      </a>       
     </td>
+    <td> Estimate the percolation threshold of a composite system </td>
+    <td> quick-union, weighted quick-union, Monte Carlo method </td>
+  </tr>
+    <tr>
+    <td>
+     <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment2">
+        <img src="./Assignment2/resources/logo.png" width = 200>
+     </a>       
+    </td>
+    <td> Create Deque and RandomizedQueue objects </td>
+    <td> linked lists, stacks, queues, deques </td>
+  </tr>
+   <tr>
+    <td>
+     <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment1">
+        <img src="./Assignment1/resources/logo.png" width = 200>
+     </a>       
+    </td>
     <td> This project was about </td>
     <td> In this project I learned </td>
   </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>94</td>
+   <tr>
+    <td>
+     <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment1">
+        <img src="./Assignment1/resources/logo.png" width = 200>
+     </a>       
+    </td>
+    <td> This project was about </td>
+    <td> In this project I learned </td>
+  </tr>
+   <tr>
+    <td>
+     <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment1">
+        <img src="./Assignment1/resources/logo.png" width = 200>
+     </a>       
+    </td>
+    <td> This project was about </td>
+    <td> In this project I learned </td>
+  </tr>
+   <tr>
+    <td>
+     <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment1">
+        <img src="./Assignment1/resources/logo.png" width = 200>
+     </a>       
+    </td>
+    <td> This project was about </td>
+    <td> In this project I learned </td>
+  </tr>
+   <tr>
+    <td>
+     <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment1">
+        <img src="./Assignment1/resources/logo.png" width = 200>
+     </a>       
+    </td>
+    <td> This project was about </td>
+    <td> In this project I learned </td>
   </tr>
 </table>
  
