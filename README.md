@@ -13,8 +13,28 @@
  
  Assignment | Description | Topics Learned
  -----------|-------------|---------------
- <img src=./Assignment1/resources/logo.png width=100>[*Assignment 1*](https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment1)  _Percolation_ | This assignment was | 
- 
+ <table style="width:100%">
+  <tr>
+    <th>Assignment</th>
+    <th>Description</th>
+    <th>Topics Learned</th>
+  </tr>
+  <tr>
+    <td>
+      <div class="box">
+        <img src="./Assignment1/resources/logo.png">
+        <span style="[*Assignment 1*](https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment1)<br></br>_Percolation_"></span>
+      </div>
+    </td>
+    <td>This project was about</td>
+    <td>In this project I learned</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td>
+    <td>94</td>
+  </tr>
+</table>
  
  <!--- Left justify the assignment pictures and include a description of each. Make "Assignment 1 - _Percolation_" clickable to the repo. Include a sentence or two that describes what I did. Then list the data structures and algs used/learned. --->
  
