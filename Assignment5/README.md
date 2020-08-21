@@ -7,7 +7,7 @@
   <tr>
    <td>
      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment5">
-       <img src="./Assignment5/resources/logo.png" width = 200>
+       <img src="./resources/logo.png" width = 200>
      </a>       
    </td>
    <td>
