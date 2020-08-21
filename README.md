@@ -4,6 +4,7 @@
  
  This repository contains my Java programming assignments that I completed while auditing [Princeton's COS 226](https://www.cs.princeton.edu/courses/archive/spring20/cos226/syllabus.php).
  <br></br>
+ <br></br>
  ### Course Information
  The course focuses on the implementation of various data structures and algorithms. It also concentrates on the time and space complexities of each of them.
  Topics covered can be found [here](https://www.cs.princeton.edu/courses/archive/spring20/cos226/lectures.php), but I'll abstract more on the material below.  
@@ -40,13 +41,52 @@
       <div align="center"> Create Deque and RandomizedQueue objects </div>
     </td>
     <td>
-      <div align="center"> linked lists, stacks, queues, deques </div>
+      <div align="center"> linked lists, stacks, queues, deques, Java iterators </div>
     </td>
   </tr>
    <tr>
     <td>
-      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment2">
-        <img src="./Assignment2/resources/logo.png" width = 200>
+      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment3">
+        <img src="./Assignment3/resources/logo.png" width = 200>
+      </a>       
+    </td>
+    <td>
+      <div align="center"> Autocomplete feature for user queries </div>
+    </td>
+    <td>
+      <div align="center"> selection sort, insertion sort, binary search, mergesort, quicksort, Java comparators </div>
+    </td>
+  </tr>
+   <tr>
+    <td>
+      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment4">
+        <img src="./Assignment4/resources/logo.png" width = 200>
+      </a>       
+    </td>
+    <td>
+      <div align="center"> Solver for any [k-puzzle](https://en.wikipedia.org/wiki/15_puzzle). </div>
+    </td>
+    <td>
+     <div align="center"> A* search, priority queues / heaps, heapsort </div>
+    </td>
+  </tr>
+   <tr>
+    <td>
+      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment5">
+        <img src="./Assignment5/resources/logo.png" width = 200>
+      </a>       
+    </td>
+    <td>
+      <div align="center"> Create Deque and RandomizedQueue objects </div>
+    </td>
+    <td>
+      <div align="center"> linked lists, stacks, queues, deques, Java iterators </div>
+    </td>
+  </tr>
+   <tr>
+    <td>
+      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment6">
+        <img src="./Assignment6/resources/logo.png" width = 200>
       </a>       
     </td>
     <td>
@@ -58,47 +98,8 @@
   </tr>
    <tr>
     <td>
-      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment2">
-        <img src="./Assignment2/resources/logo.png" width = 200>
-      </a>       
-    </td>
-    <td>
-      <div align="center"> Create Deque and RandomizedQueue objects </div>
-    </td>
-    <td>
-      <div align="center"> linked lists, stacks, queues, deques </div>
-    </td>
-  </tr>
-   <tr>
-    <td>
-      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment2">
-        <img src="./Assignment2/resources/logo.png" width = 200>
-      </a>       
-    </td>
-    <td>
-      <div align="center"> Create Deque and RandomizedQueue objects </div>
-    </td>
-    <td>
-      <div align="center"> linked lists, stacks, queues, deques </div>
-    </td>
-  </tr>
-   <tr>
-    <td>
-      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment2">
-        <img src="./Assignment2/resources/logo.png" width = 200>
-      </a>       
-    </td>
-    <td>
-      <div align="center"> Create Deque and RandomizedQueue objects </div>
-    </td>
-    <td>
-      <div align="center"> linked lists, stacks, queues, deques </div>
-    </td>
-  </tr>
-   <tr>
-    <td>
-      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment2">
-        <img src="./Assignment2/resources/logo.png" width = 200>
+      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment7">
+        <img src="./Assignment7/resources/logo.png" width = 200>
       </a>       
     </td>
     <td>
