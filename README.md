@@ -11,7 +11,7 @@
  ### Java Assignments
  Most of the dependencies that I used are contained within the course's algs4.jar. This can be found, along with installation instructions, [at this link](https://algs4.cs.princeton.edu/code). The same link also has any needed java programs and libraries that may not be in the .JAR file.
  
- <img src=./Assignment1/resources/logo.png width=100> [*Assignment 1* - _Percolation_](https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment1)  
+ <img style="float: left;" src=./Assignment1/resources/logo.png width=100> [*Assignment 1* - _Percolation_](https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment1)  
  This assignment was
  
  
