@@ -36,6 +36,9 @@
   </tr>
   <tr>
     <td>
+      <div align="center">
+        <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/queues/specification.php"> Assignment 2 </a>
+      </div>
       <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment2">
         <img src="./Assignment2/resources/logo.png" width = 200>
       </a>       
@@ -49,6 +52,9 @@
   </tr>
    <tr>
     <td>
+      <div align="center">
+        <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/autocomplete/specification.php"> Assignment 3 </a>
+      </div>
       <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment3">
         <img src="./Assignment3/resources/logo.png" width = 200>
       </a>       
@@ -62,6 +68,9 @@
   </tr>
    <tr>
     <td>
+      <div align="center">
+        <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/8puzzle/specification.php"> Assignment 4 </a>
+      </div>
       <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment4">
         <img src="./Assignment4/resources/logo.png" width = 200>
       </a>       
@@ -75,46 +84,50 @@
   </tr>
    <tr>
     <td>
+      <div align="center">
+        <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/kdtree/specification.php"> Assignment 5 </a>
+      </div>
       <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment5">
         <img src="./Assignment5/resources/logo.png" width = 200>
       </a>       
     </td>
     <td>
-      <div align="center"> Create Deque and RandomizedQueue objects </div>
+      <div align="center"> Create a 2D space partitioning binary search tree API </div>
     </td>
     <td>
-      <div align="center"> linked lists, stacks, queues, deques, Java iterators </div>
+      <div align="center"> binary search trees, 2-3 trees, red-black trees, B-trees, kd-trees </div>
     </td>
   </tr>
    <tr>
     <td>
+      <div align="center">
+        <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/wordnet/specification.php"> Assignment 6 </a>
+      </div>
       <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment6">
         <img src="./Assignment6/resources/logo.png" width = 200>
       </a>       
     </td>
     <td>
-      <div align="center"> Create Deque and RandomizedQueue objects </div>
+      <div align="center"> Build a <a href="https://wordnet.princeton.edu"> WordNet </a> object with built-in search methods </div>
     </td>
     <td>
-      <div align="center"> linked lists, stacks, queues, deques </div>
+      <div align="center"> hash tables, depth-first search, breadth-first search, topological sort, minimum spanning trees, Kruskal's algorithm, Prim's algorithm </div>
     </td>
   </tr>
    <tr>
     <td>
+      <div align="center">
+        <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/seam/specification.php"> Assignment 7 </a>
+      </div>
       <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment7">
         <img src="./Assignment7/resources/logo.png" width = 200>
       </a>       
     </td>
     <td>
-      <div align="center"> Create Deque and RandomizedQueue objects </div>
+      <div align="center"> Content-aware image resizing API </div>
     </td>
     <td>
-      <div align="center"> linked lists, stacks, queues, deques </div>
+      <div align="center"> Bellman-Ford algorithm, Dijkstra's algorithm, Ford-Fulkerson algorithm, MinCuts, MaxFlows </div>
     </td>
   </tr>
 </table>
- 
- <!--- Left justify the assignment pictures and include a description of each. Make "Assignment 1 - _Percolation_" clickable to the repo. Include a sentence or two that describes what I did. Then list the data structures and algs used/learned. --->
- 
- 
- 
