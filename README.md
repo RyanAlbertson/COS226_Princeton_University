@@ -64,10 +64,10 @@
       </a>       
     </td>
     <td>
-      <div align="center"> Solver for any [k-puzzle](https://en.wikipedia.org/wiki/15_puzzle). </div>
+      <div align="center"> Solver for any <a href="https://en.wikipedia.org/wiki/15_puzzle" title="k-puzzle"> k-puzzle </a> </div>
     </td>
     <td>
-     <div align="center"> A* search, priority queues / heaps, heapsort </div>
+     <div align="center"> A* search, priority queues/heaps, heapsort </div>
     </td>
   </tr>
    <tr>
