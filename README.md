@@ -11,8 +11,6 @@
  ### Java Assignments
  Most of the dependencies that I used are contained within the course's algs4.jar. This can be found, along with installation instructions, [at this link](https://algs4.cs.princeton.edu/code). The same link also has any needed java programs and libraries that may not be in the .JAR file.
  
- Assignment | Description | Topics Learned
- -----------|-------------|---------------
  <table style="width:100%">
   <tr>
     <th>Assignment</th>
@@ -22,12 +20,12 @@
   <tr>
     <td>
       <div class="box">
-        <img src="./Assignment1/resources/logo.png">
+        <img src="./Assignment1/resources/logo.png" width = 200>
         <span style="[*Assignment 1*](https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment1)<br></br>_Percolation_"></span>
       </div>
     </td>
-    <td>This project was about</td>
-    <td>In this project I learned</td>
+    <td> This project was about </td>
+    <td> In this project I learned </td>
   </tr>
   <tr>
     <td>Eve</td>
