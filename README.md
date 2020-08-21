@@ -13,8 +13,7 @@
  
  Assignment | Description | Topics Learned
  -----------|-------------|---------------
- [*Assignment 1* - _Percolation_](https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment1)
- <img src=./Assignment1/resources/logo.png width=100> | This assignment was | 
+ [*Assignment 1* - _Percolation_](https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment1)<img src=./Assignment1/resources/logo.png width=100> | This assignment was | 
  
  
  <!--- Left justify the assignment pictures and include a description of each. Make "Assignment 1 - _Percolation_" clickable to the repo. Include a sentence or two that describes what I did. Then list the data structures and algs used/learned. --->
