@@ -20,10 +20,10 @@
   </tr>
   <tr>
     <td>
+     <div align="center"> <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/percolation/specification.php"> Assignment 1 </a>
      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment1">
        <img src="./Assignment1/resources/logo.png" width = 200>
      </a>
-     <div align="right"> <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/percolation/specification.php"> Assignment Description </a>
     </td>
     <td>
       <div align="center"> Estimate the percolation threshold of a composite system </div>
