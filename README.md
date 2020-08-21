@@ -1,7 +1,7 @@
  <img src="https://www.cs.princeton.edu/courses/archive/spring20/cos226/images/princeton-shield.gif" alt=princeton_shield align=left height=210 />  
 
- ## COS 226 - Algorithms and Data Structures<br></br>at Princeton University
- <br></br>
+ ## COS 226 - Algorithms and Data Structures<br></br>at Princeton University  
+ 
  This repository contains my Java programming assignments that I completed while auditing [Princeton's COS 226](https://www.cs.princeton.edu/courses/archive/spring20/cos226/syllabus.php).
  <br></br>
  ### Course Information
@@ -20,65 +20,93 @@
   <tr>
     <td>
      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment1">
-        <img src="./Assignment1/resources/logo.png" width = 200>
+       <img src="./Assignment1/resources/logo.png" width = 200>
      </a>       
     </td>
-    <td> Estimate the percolation threshold of a composite system </td>
-    <td> quick-union, weighted quick-union, Monte Carlo method </td>
-  </tr>
-    <tr>
     <td>
-     <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment2">
+      <div align="center"> Estimate the percolation threshold of a composite system </div>
+    </td>
+    <td> 
+      <div align="center"> quick-union, weighted quick-union, Monte Carlo method </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment2">
         <img src="./Assignment2/resources/logo.png" width = 200>
-     </a>       
+      </a>       
     </td>
-    <td> Create Deque and RandomizedQueue objects </td>
-    <td> linked lists, stacks, queues, deques </td>
+    <td>
+      <div align="center"> Create Deque and RandomizedQueue objects </div>
+    </td>
+    <td>
+      <div align="center"> linked lists, stacks, queues, deques </div>
+    </td>
   </tr>
    <tr>
     <td>
-     <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment1">
-        <img src="./Assignment1/resources/logo.png" width = 200>
-     </a>       
+      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment2">
+        <img src="./Assignment2/resources/logo.png" width = 200>
+      </a>       
     </td>
-    <td> This project was about </td>
-    <td> In this project I learned </td>
+    <td>
+      <div align="center"> Create Deque and RandomizedQueue objects </div>
+    </td>
+    <td>
+      <div align="center"> linked lists, stacks, queues, deques </div>
+    </td>
   </tr>
    <tr>
     <td>
-     <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment1">
-        <img src="./Assignment1/resources/logo.png" width = 200>
-     </a>       
+      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment2">
+        <img src="./Assignment2/resources/logo.png" width = 200>
+      </a>       
     </td>
-    <td> This project was about </td>
-    <td> In this project I learned </td>
+    <td>
+      <div align="center"> Create Deque and RandomizedQueue objects </div>
+    </td>
+    <td>
+      <div align="center"> linked lists, stacks, queues, deques </div>
+    </td>
   </tr>
    <tr>
     <td>
-     <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment1">
-        <img src="./Assignment1/resources/logo.png" width = 200>
-     </a>       
+      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment2">
+        <img src="./Assignment2/resources/logo.png" width = 200>
+      </a>       
     </td>
-    <td> This project was about </td>
-    <td> In this project I learned </td>
+    <td>
+      <div align="center"> Create Deque and RandomizedQueue objects </div>
+    </td>
+    <td>
+      <div align="center"> linked lists, stacks, queues, deques </div>
+    </td>
   </tr>
    <tr>
     <td>
-     <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment1">
-        <img src="./Assignment1/resources/logo.png" width = 200>
-     </a>       
+      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment2">
+        <img src="./Assignment2/resources/logo.png" width = 200>
+      </a>       
     </td>
-    <td> This project was about </td>
-    <td> In this project I learned </td>
+    <td>
+      <div align="center"> Create Deque and RandomizedQueue objects </div>
+    </td>
+    <td>
+      <div align="center"> linked lists, stacks, queues, deques </div>
+    </td>
   </tr>
    <tr>
     <td>
-     <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment1">
-        <img src="./Assignment1/resources/logo.png" width = 200>
-     </a>       
+      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment2">
+        <img src="./Assignment2/resources/logo.png" width = 200>
+      </a>       
     </td>
-    <td> This project was about </td>
-    <td> In this project I learned </td>
+    <td>
+      <div align="center"> Create Deque and RandomizedQueue objects </div>
+    </td>
+    <td>
+      <div align="center"> linked lists, stacks, queues, deques </div>
+    </td>
   </tr>
 </table>
  
