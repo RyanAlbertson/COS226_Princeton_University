@@ -6,18 +6,18 @@
   </tr>
   <tr>
     <td>
-      <div align="center">
-        <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/queues/specification.php"> Assignment 2 </a>
-      </div>
-      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment2">
-        <img src="./resources/logo.png" width = 400>
-      </a>       
+     <div align="center">
+       <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/percolation/specification.php"> Assignment 1 </a>
+     </div>
+     <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment1">
+       <img src="./resources/logo.png" width = 300>
+     </a>
     </td>
     <td>
-      <div align="center"> Create Deque and RandomizedQueue objects </div>
+      <div align="center"> Estimate the percolation threshold of a composite system </div>
     </td>
-    <td>
-      <div align="center"> linked lists, stacks, queues, deques, Java iterators </div>
+    <td> 
+      <div align="center"> quick-union, weighted quick-union, Monte Carlo method </div>
     </td>
   </tr>
   </table>
