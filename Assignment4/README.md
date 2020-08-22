@@ -1,34 +1,23 @@
-### OVERVIEW
-
-Uses an A* search algorithm to solve [k-puzzles](https://en.wikipedia.org/wiki/15_puzzle).
-
-
-
-### EXECUTION
-
-#### Solver.java
-
-Unit test. Given a text file containing an initial k-puzzle board, builds a solution
-and prints each step.
-> java-algs4 Solver _\<filename\>_
-
-#### SolverVisualizer.java
-
-Uses a GUI to let user visualize each step of the solution.
-> java-algs4 SolverVisualizer _\<filename\>_
-
-
-
-### DEPENDENCIES
-
-- java.util.ArrayDeque
-- java.util.Deque
-- java.awt.Color
-- java.awt.Font
-- [Princeton's In](https://introcs.cs.princeton.edu/java/stdlib/In.java.html)
-- [Princeton's StdIn](https://introcs.cs.princeton.edu/java/stdlib/StdIn.java.html)
-- [Princeton's MinPQ](https://algs4.cs.princeton.edu/24pq/MinPQ.java.html)
-- [Princeton's StdIn](https://introcs.cs.princeton.edu/java/stdlib/StdIn.java.html)
-- [Princeton's StdOut](https://introcs.cs.princeton.edu/java/stdlib/StdOut.java.html)
-- [Princeton's StdDraw](https://introcs.cs.princeton.edu/java/stdlib/StdDraw.java.html)
-- [Princeton's algs4.jar (_clicking will download the .jar_ )](https://algs4.cs.princeton.edu/code/algs4.jar)
+ <table style="width:100%">
+  <tr>
+    <th>Assignment</th>
+    <th>Description</th>
+    <th>Topics Learned</th>
+  </tr>
+  <tr>
+    <td>
+      <div align="center">
+        <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/8puzzle/specification.php"> Assignment 4 </a>
+      </div>
+      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment4">
+        <img src="./resources/logo.png" width = 300>
+      </a>       
+    </td>
+    <td>
+      <div align="center"> Solver for any <a href="https://en.wikipedia.org/wiki/15_puzzle"> k-puzzle </a> </div>
+    </td>
+    <td>
+     <div align="center"> A* search, priority queues/heaps, heapsort </div>
+    </td>
+  </tr>
+  </table>
