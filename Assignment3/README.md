@@ -1,24 +1,23 @@
-### OVERVIEW
-
-Implements an autocompletion feature. A user can specifiy a string and the Autocomplete
-program will search a provided text file for strings that begin with the specified sub-string.
-The frequency of each string is factored into the results.
-
-
-### EXECUTION
-
-#### Autocomplete.java
-Reads a given text file which stores strings and their respective frequencies. Takes
-a given number of matches and searches the text file for that amount of strings that
-begin with a given sub-string which was typed into StdIn. For each inputted sub-string,
-the specified number of strings containing it, along with those strings, are printed.
-> java-algs4 Autocomplete _\<filename\> \<# matches\>_
-
-
-### DEPENDENCIES
-
-- java.util.Arrays
-- java.util.Comparator
-- [Princeton's StdIn](https://introcs.cs.princeton.edu/java/stdlib/StdIn.java.html)
-- [Princeton's StdOut](https://introcs.cs.princeton.edu/java/stdlib/StdOut.java.html)
-- [Princeton's algs4.jar (_clicking will download the .jar_ )](https://algs4.cs.princeton.edu/code/algs4.jar)
+ <table style="width:100%">
+  <tr>
+    <th>Assignment</th>
+    <th>Description</th>
+    <th>Topics Learned</th>
+  </tr>
+  <tr>
+    <td>
+      <div align="center">
+        <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/autocomplete/specification.php"> Assignment 3 </a>
+      </div>
+      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment3">
+        <img src="./resources/logo.png" width = 300>
+      </a>       
+    </td>
+    <td>
+      <div align="center"> Autocomplete feature for user queries </div>
+    </td>
+    <td>
+      <div align="center"> selection sort, insertion sort, binary search, mergesort, quicksort, Java comparators </div>
+    </td>
+  </tr>
+  </table>
