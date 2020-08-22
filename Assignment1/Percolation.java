@@ -3,7 +3,7 @@ import edu.princeton.cs.algs4.StdOut;
 import java.util.HashMap;
 
 /**
- * Stores an (n x n) grid system and implements methods that allow manipulation
+ * Stores an (n x n) grid system and initializes methods that allow manipulation
  * and testing of the system.
  *
  * @author Ryan Albertson

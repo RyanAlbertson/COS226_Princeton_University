@@ -26,7 +26,6 @@ public class ShortestCommonAncestor {
     // Track length of shortest common ancestral path of current calculation.
     private int length;
 
-
     /**
      * Constructs a copy of the given {@link edu.princeton.cs.algs4.Digraph#Digraph(Digraph)}
      * along with attributes that are used across the class methods.
