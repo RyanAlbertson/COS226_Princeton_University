@@ -1,21 +1,23 @@
-### OVERVIEW
-
-Reads a sequence of strings from a given text file. Then prints a given number of
-strings randomly.
-
-
-### EXECUTION
-
-#### Permutation
-> java-algs4 Permutation _\<# strings\>_ \< _\<filename\>_
-
-
-### DEPENDENCIES
-
-- java.util.Arrays
-- java.util.Iterator
-- java.util.NoSuchElementException
-- [Princeton's StdIn](https://introcs.cs.princeton.edu/java/stdlib/StdIn.java.html)
-- [Princeton's StdOut](https://introcs.cs.princeton.edu/java/stdlib/StdOut.java.html)
-- [Princeton's StdRandom](https://introcs.cs.princeton.edu/java/stdlib/StdRandom.java.html)
-- [Princeton's algs4.jar (_clicking will download the .jar_ )](https://algs4.cs.princeton.edu/code/algs4.jar)
+ <table style="width:100%">
+  <tr>
+    <th>Assignment</th>
+    <th>Description</th>
+    <th>Topics Learned</th>
+  </tr>
+<tr>
+    <td>
+      <div align="center">
+        <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/queues/specification.php"> Assignment 2 </a>
+      </div>
+      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment2">
+        <img src="./Assignment2/resources/logo.png" width = 400>
+      </a>       
+    </td>
+    <td>
+      <div align="center"> Create Deque and RandomizedQueue objects </div>
+    </td>
+    <td>
+      <div align="center"> linked lists, stacks, queues, deques, Java iterators </div>
+    </td>
+  </tr>
+  </table>
