@@ -11,10 +11,10 @@
       </div>
       <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment3">
         <img src="./resources/logo.png" width = 300>
-      </a>       
+      </a>
     </td>
     <td>
-      <div align="center"> Autocomplete feature for user queries </div>
+      <div align="center"> src.main.Autocomplete feature for user queries </div>
     </td>
     <td>
       <div align="center"> selection sort, insertion sort, binary search, mergesort, quicksort, Java comparators </div>

@@ -35692,7 +35692,7 @@
 2	两个东
 2	这从
 2	shoten
-2	production
+2	target.production
 2	seisaku
 2	koukai
 2	onkyou

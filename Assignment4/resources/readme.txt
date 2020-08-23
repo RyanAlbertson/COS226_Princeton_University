@@ -1,11 +1,11 @@
 /* *****************************************************************************
- *  Name:     
- *  NetID:    
- *  Precept:  
+ *  Name:
+ *  NetID:
+ *  Precept:
  *
- *  Partner Name:       
- *  Partner NetID:      
- *  Partner Precept:    
+ *  Partner Name:
+ *  Partner NetID:
+ *  Partner Precept:
  *
  *  Hours to complete assignment (optional):
  *
@@ -15,7 +15,7 @@ Programming Assignment 4: Slider Puzzle
 
 
 /* *****************************************************************************
- *  Explain briefly how you represented the Board data type.
+ *  Explain briefly how you represented the src.main.Board data type.
  **************************************************************************** */
 
 
@@ -60,14 +60,14 @@ Order of growth of running time: Theta(   )
                  min number          seconds
      instance     of moves     Hamming     Manhattan
    ------------  ----------   ----------   ----------
-   puzzle28.txt 
-   puzzle30.txt 
-   puzzle32.txt 
-   puzzle34.txt 
-   puzzle36.txt 
-   puzzle38.txt 
-   puzzle40.txt 
-   puzzle42.txt 
+   puzzle28.txt
+   puzzle30.txt
+   puzzle32.txt
+   puzzle34.txt
+   puzzle36.txt
+   puzzle38.txt
+   puzzle40.txt
+   puzzle42.txt
 
 
 
@@ -102,7 +102,7 @@ Order of growth of running time: Theta(   )
 
 
 /* *****************************************************************************
- *  Describe any serious problems you encountered.                    
+ *  Describe any serious problems you encountered.
  **************************************************************************** */
 
 
@@ -120,7 +120,7 @@ Order of growth of running time: Theta(   )
 
 
 /* *****************************************************************************
- *  List any other comments here. Feel free to provide any feedback   
- *  on how much you learned from doing the assignment, and whether    
- *  you enjoyed doing it.                                             
+ *  List any other comments here. Feel free to provide any feedback
+ *  on how much you learned from doing the assignment, and whether
+ *  you enjoyed doing it.
  **************************************************************************** */

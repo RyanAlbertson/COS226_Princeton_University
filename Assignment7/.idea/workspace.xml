@@ -14,10 +14,6 @@
     <option name="DISPLAY_NOTIFICATION_POPUP" value="false" />
     <option name="CLEAR_OUTPUT_DIRECTORY" value="false" />
   </component>
-  <component name="ErrorTreeViewConfiguration">
-    <option name="autoscrollToSource" value="true" />
-    <option name="IS_AUTOSCROLL_TO_SOURCE" value="true" />
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -50,7 +46,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowMessages.ShowToolbar" value="false" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../Junit4" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
   </component>
   <component name="TodoView">
@@ -61,5 +60,19 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1069" y="413" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1598222522596">
+      <screen x="0" y="0" width="2477" height="1440" />
+    </state>
+    <state x="1069" y="413" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.2477.1440@0.0.2477.1440" timestamp="1598222522596" />
+    <state x="869" y="436" key="FileChooserDialogImpl" timestamp="1598222521104">
+      <screen x="0" y="0" width="2477" height="1440" />
+    </state>
+    <state x="869" y="436" key="FileChooserDialogImpl/0.0.2477.1440@0.0.2477.1440" timestamp="1598222521104" />
+    <state x="719" y="294" key="SettingsEditor" timestamp="1598222559725">
+      <screen x="0" y="0" width="2477" height="1440" />
+    </state>
+    <state x="719" y="294" key="SettingsEditor/0.0.2477.1440@0.0.2477.1440" timestamp="1598222559725" />
   </component>
 </project>

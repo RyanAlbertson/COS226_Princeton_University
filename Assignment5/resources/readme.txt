@@ -1,11 +1,11 @@
 /* *****************************************************************************
- *  Name:     
- *  NetID:    
- *  Precept:  
+ *  Name:
+ *  NetID:
+ *  Precept:
  *
- *  Partner Name:       
- *  Partner NetID:      
- *  Partner Precept:    
+ *  Partner Name:
+ *  Partner NetID:
+ *  Partner Precept:
  *
  *  Hours to complete assignment (optional):
  *
@@ -30,7 +30,7 @@ Programming Assignment 5: Kd-Trees
 
 
 /* *****************************************************************************
- *  How many nearest-neighbor calculations can your PointST implementation
+ *  How many nearest-neighbor calculations can your main.PointST implementation
  *  perform per second for input1M.txt (1 million points), where the query
  *  points are random points in the unit square?
  *
@@ -38,7 +38,7 @@ Programming Assignment 5: Kd-Trees
  *  for each entry. Use at least 1 second of CPU time.
  *  (Do not count the time to read the points or to build the 2d-tree.)
  *
- *  Repeat the same question but with your KdTreeST implementation.
+ *  Repeat the same question but with your main.KdTreeST implementation.
  *
  **************************************************************************** */
 
@@ -46,9 +46,9 @@ Programming Assignment 5: Kd-Trees
                  # calls to         /   CPU time     =   # calls to nearest()
                  client nearest()       (seconds)        per second
                 ------------------------------------------------------
-PointST:
+main.PointST:
 
-KdTreeST:
+main.KdTreeST:
 
 Note: more calls per second indicates better performance.
 
@@ -73,7 +73,7 @@ Note: more calls per second indicates better performance.
 
 
 /* *****************************************************************************
- *  Describe any serious problems you encountered.                    
+ *  Describe any serious problems you encountered.
  **************************************************************************** */
 
 
@@ -87,7 +87,7 @@ Note: more calls per second indicates better performance.
 
 
 /* *****************************************************************************
- *  List any other comments here. Feel free to provide any feedback   
- *  on  how helpful the class meeting was and on how much you learned 
+ *  List any other comments here. Feel free to provide any feedback
+ *  on  how helpful the class meeting was and on how much you learned
  * from doing the assignment, and whether you enjoyed doing it.
  **************************************************************************** */

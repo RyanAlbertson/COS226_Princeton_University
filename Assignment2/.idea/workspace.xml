@@ -17,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
     <option name="SCHEME" value="Project" />
@@ -54,6 +54,7 @@
     <property name="ToolWindowRun.ShowToolbar" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
@@ -64,18 +65,27 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ryan0\Documents\GitHub\COS226_Princeton_University\Assignment2\target\production\COS 226\main" />
+      <recent name="C:\Users\ryan0\Documents\GitHub\COS226_Princeton_University\Assignment2\target\production\main" />
+      <recent name="C:\Users\ryan0\Documents\GitHub\COS226_Princeton_University\Assignment2\src\main" />
+      <recent name="C:\Users\ryan0\Documents\GitHub\COS226_Princeton_University\Assignment2\src" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Permutation">
+  <component name="RunManager" selected="JUnit.DequeTest (1)">
     <configuration name="Deque" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="Deque" />
+      <option name="MAIN_CLASS_NAME" value="src.Deque" />
       <module name="COS 226" />
       <method v="2" />
     </configuration>
     <configuration name="Permutation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Permutation" />
+      <option name="MAIN_CLASS_NAME" value="src.Permutation" />
       <module name="COS 226" />
       <option name="PROGRAM_PARAMETERS" value="8 &lt; duplicates.txt" />
       <method v="2" />
@@ -83,7 +93,7 @@
     <configuration default="true" type="Application" factoryName="Application">
       <method v="2" />
     </configuration>
-    <configuration name="DequeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DequeTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="COS 226" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="DequeTest" />
@@ -92,7 +102,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomizedQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DequeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="COS 226" />
+      <option name="PACKAGE_NAME" value="src.test" />
+      <option name="MAIN_CLASS_NAME" value="src.test.DequeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RandomizedQueueTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="COS 226" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="RandomizedQueueTest" />
@@ -101,33 +120,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RandomizedQueueTest.iterator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RandomizedQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="COS 226" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RandomizedQueueTest" />
-      <option name="METHOD_NAME" value="iterator" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RandomizedQueueTest.iterator_UnsupportedOperation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="COS 226" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="RandomizedQueueTest" />
-      <option name="METHOD_NAME" value="iterator_UnsupportedOperation" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="src.test" />
+      <option name="MAIN_CLASS_NAME" value="src.test.RandomizedQueueTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DequeTest (1)" />
+        <item itemvalue="JUnit.RandomizedQueueTest (1)" />
+        <item itemvalue="JUnit.RandomizedQueueTest" />
         <item itemvalue="Application.Permutation" />
         <item itemvalue="JUnit.DequeTest" />
-        <item itemvalue="JUnit.RandomizedQueueTest" />
-        <item itemvalue="JUnit.RandomizedQueueTest.iterator_UnsupportedOperation" />
-        <item itemvalue="JUnit.RandomizedQueueTest.iterator" />
       </list>
     </recent_temporary>
   </component>
@@ -161,33 +169,47 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1085" y="408" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/-1080.243.1080.1880@0.0.2560.1400" timestamp="1596411022674" />
-    <state x="1499" y="368" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1596258990710">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="1076" y="284" width="650" height="579" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1598191487961">
+      <screen x="0" y="0" width="1838" height="1080" />
     </state>
+    <state x="1076" y="284" width="650" height="579" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1838.1080@0.0.1838.1080" timestamp="1598191487961" />
     <state x="1499" y="368" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.2560.1400/-1080.243.1080.1880@0.0.2560.1400" timestamp="1596258990710" />
+    <state x="696" y="408" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1598128164958">
+      <screen x="0" y="0" width="1838" height="1080" />
+    </state>
+    <state x="696" y="408" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1838.1080@0.0.1838.1080" timestamp="1598128164958" />
+    <state x="1051" y="373" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1598191479115">
+      <screen x="0" y="0" width="1838" height="1080" />
+    </state>
+    <state x="1051" y="373" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1838.1080@0.0.1838.1080" timestamp="1598191479115" />
     <state x="1025" y="570" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1596259475508">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1025" y="570" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.2560.1400/-1080.243.1080.1880@0.0.2560.1400" timestamp="1596259475508" />
-    <state x="1320" y="417" key="FileChooserDialogImpl" timestamp="1596646504142">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="948" y="322" key="FileChooserDialogImpl" timestamp="1598127779402">
+      <screen x="0" y="0" width="1838" height="1080" />
     </state>
+    <state x="948" y="322" key="FileChooserDialogImpl/0.0.1838.1080@0.0.1838.1080" timestamp="1598127779402" />
     <state x="1320" y="417" key="FileChooserDialogImpl/0.0.2560.1400/-1080.243.1080.1880@0.0.2560.1400" timestamp="1596646504142" />
-    <state width="2559" height="407" key="GridCell.Tab.0.bottom" timestamp="1596497879274">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1837" height="301" key="GridCell.Tab.0.bottom" timestamp="1598193327009">
+      <screen x="0" y="0" width="1838" height="1080" />
     </state>
+    <state width="1837" height="301" key="GridCell.Tab.0.bottom/0.0.1838.1080@0.0.1838.1080" timestamp="1598193327009" />
     <state width="2559" height="407" key="GridCell.Tab.0.bottom/0.0.2560.1400/-1080.243.1080.1880@0.0.2560.1400" timestamp="1596497879274" />
-    <state width="2559" height="407" key="GridCell.Tab.0.center" timestamp="1596497879273">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1837" height="301" key="GridCell.Tab.0.center" timestamp="1598193327009">
+      <screen x="0" y="0" width="1838" height="1080" />
     </state>
+    <state width="1837" height="301" key="GridCell.Tab.0.center/0.0.1838.1080@0.0.1838.1080" timestamp="1598193327009" />
     <state width="2559" height="407" key="GridCell.Tab.0.center/0.0.2560.1400/-1080.243.1080.1880@0.0.2560.1400" timestamp="1596497879273" />
-    <state width="2559" height="407" key="GridCell.Tab.0.left" timestamp="1596497879273">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1837" height="301" key="GridCell.Tab.0.left" timestamp="1598193327008">
+      <screen x="0" y="0" width="1838" height="1080" />
     </state>
+    <state width="1837" height="301" key="GridCell.Tab.0.left/0.0.1838.1080@0.0.1838.1080" timestamp="1598193327008" />
     <state width="2559" height="407" key="GridCell.Tab.0.left/0.0.2560.1400/-1080.243.1080.1880@0.0.2560.1400" timestamp="1596497879273" />
-    <state width="2559" height="407" key="GridCell.Tab.0.right" timestamp="1596497879273">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1837" height="301" key="GridCell.Tab.0.right" timestamp="1598193327009">
+      <screen x="0" y="0" width="1838" height="1080" />
     </state>
+    <state width="1837" height="301" key="GridCell.Tab.0.right/0.0.1838.1080@0.0.1838.1080" timestamp="1598193327009" />
     <state width="2559" height="407" key="GridCell.Tab.0.right/0.0.2560.1400/-1080.243.1080.1880@0.0.2560.1400" timestamp="1596497879273" />
     <state width="2559" height="500" key="GridCell.Tab.1.bottom" timestamp="1596431034456">
       <screen x="0" y="0" width="2560" height="1400" />
@@ -205,11 +227,16 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state width="2559" height="500" key="GridCell.Tab.1.right/0.0.2560.1400/-1080.243.1080.1880@0.0.2560.1400" timestamp="1596431034456" />
-    <state x="1149" y="249" key="SettingsEditor" timestamp="1596395494340">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state x="800" y="192" key="SettingsEditor" timestamp="1598192734050">
+      <screen x="0" y="0" width="1838" height="1080" />
     </state>
+    <state x="800" y="192" key="SettingsEditor/0.0.1838.1080@0.0.1838.1080" timestamp="1598192734050" />
     <state x="862" y="185" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593450454788" />
     <state x="1149" y="249" key="SettingsEditor/0.0.2560.1400/-1080.243.1080.1880@0.0.2560.1400" timestamp="1596395494340" />
+    <state x="739" y="317" key="chooseDestDirectoryDialog" timestamp="1598191583478">
+      <screen x="0" y="0" width="1838" height="1080" />
+    </state>
+    <state x="739" y="317" key="chooseDestDirectoryDialog/0.0.1838.1080@0.0.1838.1080" timestamp="1598191583478" />
     <state x="890" y="593" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1596258796863">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>

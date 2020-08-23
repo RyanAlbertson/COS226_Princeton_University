@@ -32,18 +32,37 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="false" />
     <option name="showModules" value="false" />
     <option name="sortByType" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="ToolWindowMessages.ShowToolbar" value="false" />
     <property name="ToolWindowRun.ShowToolbar" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.lift" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="edu.princeton.cs.algs4" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ryan0\Documents\GitHub\COS226_Princeton_University\Assignment1\.lift" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <method v="2" />
+    </configuration>
+    <configuration name="main.Percolation" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="main.Percolation" />
+      <module name="COS 226" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -55,22 +74,49 @@
     </todo-panel>
   </component>
   <component name="WindowStateProjectService">
+    <state x="399" y="113" key="#Project_Structure" timestamp="1598190517376">
+      <screen x="0" y="0" width="1838" height="1080" />
+    </state>
+    <state x="399" y="113" key="#Project_Structure/0.0.1838.1080@0.0.1838.1080" timestamp="1598190517376" />
     <state x="1085" y="408" key="#com.intellij.ide.util.MemberChooser" timestamp="1593547280749">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1085" y="408" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400/-1080.243.1080.1880@0.0.2560.1400" timestamp="1593547280749" />
-    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596913636224">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="661" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598125070913">
+      <screen x="0" y="0" width="1838" height="1080" />
     </state>
+    <state x="661" y="277" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1838.1080@0.0.1838.1080" timestamp="1598125070913" />
     <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1596913636224" />
-    <state x="737" y="274" key="FileChooserDialogImpl" timestamp="1596913520267">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="706" y="285" key="FileChooserDialogImpl" timestamp="1598127122512">
+      <screen x="0" y="0" width="1838" height="1080" />
     </state>
+    <state x="706" y="285" key="FileChooserDialogImpl/0.0.1838.1080@0.0.1838.1080" timestamp="1598127122512" />
     <state x="737" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1596913520267" />
-    <state x="1149" y="249" key="SettingsEditor" timestamp="1596259921122">
-      <screen x="0" y="0" width="2560" height="1400" />
+    <state width="1837" height="301" key="GridCell.Tab.0.bottom" timestamp="1598190663259">
+      <screen x="0" y="0" width="1838" height="1080" />
     </state>
+    <state width="1837" height="301" key="GridCell.Tab.0.bottom/0.0.1838.1080@0.0.1838.1080" timestamp="1598190663259" />
+    <state width="1837" height="301" key="GridCell.Tab.0.center" timestamp="1598190663259">
+      <screen x="0" y="0" width="1838" height="1080" />
+    </state>
+    <state width="1837" height="301" key="GridCell.Tab.0.center/0.0.1838.1080@0.0.1838.1080" timestamp="1598190663259" />
+    <state width="1837" height="301" key="GridCell.Tab.0.left" timestamp="1598190663259">
+      <screen x="0" y="0" width="1838" height="1080" />
+    </state>
+    <state width="1837" height="301" key="GridCell.Tab.0.left/0.0.1838.1080@0.0.1838.1080" timestamp="1598190663259" />
+    <state width="1837" height="301" key="GridCell.Tab.0.right" timestamp="1598190663259">
+      <screen x="0" y="0" width="1838" height="1080" />
+    </state>
+    <state width="1837" height="301" key="GridCell.Tab.0.right/0.0.1838.1080@0.0.1838.1080" timestamp="1598190663259" />
+    <state x="567" y="152" key="SettingsEditor" timestamp="1598190656737">
+      <screen x="0" y="0" width="1838" height="1080" />
+    </state>
+    <state x="567" y="152" key="SettingsEditor/0.0.1838.1080@0.0.1838.1080" timestamp="1598190656737" />
     <state x="862" y="185" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1593450454788" />
     <state x="1149" y="249" key="SettingsEditor/0.0.2560.1400/-1080.243.1080.1880@0.0.2560.1400" timestamp="1596259921122" />
+    <state x="739" y="317" key="chooseDestDirectoryDialog" timestamp="1598190024798">
+      <screen x="0" y="0" width="1838" height="1080" />
+    </state>
+    <state x="739" y="317" key="chooseDestDirectoryDialog/0.0.1838.1080@0.0.1838.1080" timestamp="1598190024798" />
   </component>
 </project>

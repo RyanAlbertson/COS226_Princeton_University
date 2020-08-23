@@ -1140,7 +1140,7 @@
     69	CHE 504  Chemical Reactor Engineering
     69	CBE 415  Polymers
     69	ARC 525  Mapping the City
-    68	WWS 590C Sociological Studies of Inequality(Half -Term)
+    68	WWS 590C Sociological Studies of Inequality(Half -src.main.Term)
     68	WWS 540  Urbanization and Development
     68	VIS 343  Major Filmmakers
     68	SPA 227  Contemporary Issues in Spain and/or Latin America
@@ -1880,7 +1880,7 @@
     36	AAS 350  African American Studies: Environmental Justice
     36	AAS 340  Shades of Passing
     36	AAS 310  Music from the Hispanophone Caribbean
-    35	WWS 593I Topics in Policy Analysis (Session I: Half-Term Courses) - The Federal Budget
+    35	WWS 593I Topics in Policy Analysis (Session I: Half-src.main.Term Courses) - The Federal Budget
     35	WRI 187  Tragedy
     35	WRI 187  Secrets and Confessions
     35	WRI 173  Documentary Theatre
@@ -5437,7 +5437,7 @@
      7	WWS 452  Special Topics in Public Affairs - Muslim Immigration and Integration
      7	WRI 502P Writing an Effective Scientific Research Article Physical and Applied Physical Sciences
      7	WRI 502E Writing an Effective Scientific Research Article Electrical Engineering and Computer Sci - Electrical Engineeering and Computer Science
-     7	WRI 501M Reading and Writing about the Scientific Literature in English (Half Term: Molecular and Life Sciences - Molecular Sciences
+     7	WRI 501M Reading and Writing about the Scientific Literature in English (Half src.main.Term: Molecular and Life Sciences - Molecular Sciences
      7	VIS 344  Special Topics in Film History - Classical Myths, Sites, and Rites in Cinema
      7	TUR 305  Advanced Turkish: Selected Readings in Historical and Literary Texts
      7	THR 330  Special Topics in Performance Practice - Casting: History, Theory, Practices

@@ -9,8 +9,8 @@ public class WordNet_Test {
     @Before
     public void setUp() throws Exception {
 
-        String synsets = "synsets.txt";
-        String hypernyms = "hypernyms.txt";
+        String synsets = "resources/synsets.txt";
+        String hypernyms = "resources/hypernyms.txt";
         wordnet = new WordNet(synsets, hypernyms);
     }
 

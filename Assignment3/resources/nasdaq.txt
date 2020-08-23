@@ -534,7 +534,7 @@
       17510348	CMS Bancorp, Inc.
      259704808	CNB Financial Corporation
      284675533	CNinsure Inc.
-     297054055	Coastal Contacts Inc                    
+     297054055	Coastal Contacts Inc
       50872611	Coastway Bancorp, Inc.
      448945546	CoBiz Financial Inc.
       22780281	Cobra Electronics Corporation
@@ -920,7 +920,7 @@
        1964039	First Trust Low Beta Income ETF
       60227369	First Trust NASDAQ ABA Community Bank Index Fund
       10239068	First Trust NASDAQ CEA Smartphone Index Fund
-      13481307	First Trust NASDAQ Clean Edge Smart Grid Infrastructure Index 
+      13481307	First Trust NASDAQ Clean Edge Smart Grid Infrastructure Index
      133960039	First Trust NASDAQ Clean Edge U.S. Liquid Series Index Fund
       59221279	First Trust NASDAQ Global Auto Index Fund
        1979040	First Trust NASDAQ Rising Dividend Achievers ETF
@@ -1113,7 +1113,7 @@
      207245885	Heritage Oaks Bancorp
      336139322	Heritage-Crystal Clean, Inc.
     1637714555	Herman Miller, Inc.
-     212945508	Heron Therapeutics, Inc.  
+     212945508	Heron Therapeutics, Inc.
       56622809	Heska Corporation
       93484580	HF Financial Corp.
      242558590	HF2 Financial Management Inc.
@@ -1922,7 +1922,7 @@
      221158156	Prosensa Holding N.V.
      366100000	ProShares Ultra Nasdaq Biotechnology
      575608000	ProShares UltraPro QQQ
-     152656000	ProShares UltraPro Short QQQ 
+     152656000	ProShares UltraPro Short QQQ
        8532000	ProShares UltraShort Nasdaq Biotechnology
     3519333778	Prospect Capital Corporation
        6373600	Prospect Global Resources Inc.
@@ -2484,10 +2484,10 @@
      462670078	Vanda Pharmaceuticals Inc.
      122815360	Vanguard Emerging Markets Government Bond ETF
     1297544000	Vanguard Global ex-U.S. Real Estate ETF
-     120857100	Vanguard Intermediate -Term Government Bond ETF
-    3214420000	Vanguard Intermediate-Term Corporate Bond ETF
-     616464000	Vanguard Long-Term Corporate Bond ETF
-      73722000	Vanguard Long-Term Government Bond ETF
+     120857100	Vanguard Intermediate -src.main.Term Government Bond ETF
+    3214420000	Vanguard Intermediate-src.main.Term Corporate Bond ETF
+     616464000	Vanguard Long-src.main.Term Corporate Bond ETF
+      73722000	Vanguard Long-src.main.Term Government Bond ETF
      377702000	Vanguard Mortgage-Backed Securities ETF
     2392946325	Vanguard Natural Resources LLC
      272537600	Vanguard Russell 1000 ETF
@@ -2497,16 +2497,16 @@
      120327960	Vanguard Russell 2000 Growth ETF
       67808080	Vanguard Russell 2000 Value ETF
       86140000	Vanguard Russell 3000 ETF
-    7679328000	Vanguard Short-Term Corporate Bond ETF
-     414324000	Vanguard Short-Term Government ETF
-    1093287000	Vanguard Short-Term Inflation-Protected Securities Index Fund
+    7679328000	Vanguard Short-src.main.Term Corporate Bond ETF
+     414324000	Vanguard Short-src.main.Term Government ETF
+    1093287000	Vanguard Short-src.main.Term Inflation-Protected Securities Index Fund
      869671000	Vanguard Total International Bond ETF
     2456762000	Vanguard Total International Stock ETF
      316551180	VASCO Data Security International, Inc.
      429909278	Vascular Solutions, Inc.
     2702430070	VCA Antech, Inc.
     1540767023	Veeco Instruments Inc.
-       1347421	VelocityShares Daily 2x VIX Medium Term ETN
+       1347421	VelocityShares Daily 2x VIX Medium src.main.Term ETN
       15763500	VelocityShares Emerging Asia DR ETF
        4564000	VelocityShares Emerging Markets DR ETF
       29436535	VelocityShares Equal Risk Weighted Large Cap ETF
