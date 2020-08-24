@@ -70,11 +70,6 @@ public class Outcast {
             In in = new In(args[t]);
             String[] nouns = in.readAllStrings();
             StdOut.println(args[t] + ": " + outcast.outcast(nouns));
-
-            // TODO somehow nouns aren't being added to wordnet properly.
-
-
-            // java-algs4 main/Outcast resources/synsets.txt resources/hypernyms.txt resources/outcast5.txt resources/outcast8.txt resources/outcast11.txt
         }
     }
 }

@@ -58,6 +58,11 @@ public class WordNet {
             while (st2.hasMoreTokens()) {
 
                 String noun = st2.nextToken();
+
+                // Add nouns and map their corresponding synsets to them.
+                if (nouns.get(noun) == null) {
+                    nouns.put(noun, new LinkedList<Integer>());
+                }
                 nouns.getOrDefault(noun, new LinkedList<Integer>()).add(synsetIdx);
             }
         }
@@ -104,6 +109,8 @@ public class WordNet {
     public boolean isNoun(String word) {
 
         if (word == null) throw new IllegalArgumentException("'word' is null.");
+
+        // System.out.println(nouns.size());
 
         return nouns.containsKey(word);
     }

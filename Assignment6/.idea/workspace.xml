@@ -49,7 +49,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
@@ -185,11 +185,11 @@
       <screen x="0" y="0" width="1838" height="1080" />
     </state>
     <state width="1824" height="369" key="GridCell.Tab.1.right/0.0.1838.1080@0.0.1838.1080" timestamp="1598108737020" />
-    <state x="539" y="152" key="SettingsEditor" timestamp="1598231637272">
+    <state x="539" y="152" key="SettingsEditor" timestamp="1598296765442">
       <screen x="0" y="0" width="2477" height="1440" />
     </state>
     <state x="400" y="114" key="SettingsEditor/0.0.1838.1080@0.0.1838.1080" timestamp="1598126849473" />
-    <state x="539" y="152" key="SettingsEditor/0.0.2477.1440@0.0.2477.1440" timestamp="1598231637272" />
+    <state x="539" y="152" key="SettingsEditor/0.0.2477.1440@0.0.2477.1440" timestamp="1598296765442" />
     <state x="740" y="317" key="chooseDestDirectoryDialog" timestamp="1598108406901">
       <screen x="0" y="0" width="1838" height="1080" />
     </state>
@@ -206,5 +206,16 @@
       <screen x="0" y="0" width="2498" height="1440" />
     </state>
     <state x="1374" y="328" width="672" height="678" key="search.everywhere.popup/0.0.2498.1440@0.0.2498.1440" timestamp="1597938160958" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/WordNet.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
