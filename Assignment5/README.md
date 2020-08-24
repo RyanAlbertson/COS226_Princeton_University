@@ -10,7 +10,7 @@
         <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/kdtree/specification.php"> Assignment 5 </a>
       </div>
       <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment5">
-        <img src="./resources/logo.png" width = 300>
+        <img src="./src/resources/logo.png" width = 300>
       </a>       
     </td>
     <td>
