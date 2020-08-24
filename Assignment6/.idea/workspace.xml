@@ -49,7 +49,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.saveactions" />
@@ -58,24 +58,30 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ryan0\Documents\GitHub\COS226_Princeton_University\Assignment6\target\production\main" />
+      <recent name="C:\Users\ryan0\Documents\GitHub\COS226_Princeton_University\Assignment6\src\main" />
+      <recent name="C:\Users\ryan0\Documents\GitHub\COS226_Princeton_University\Assignment6\src\test" />
+      <recent name="C:\Users\ryan0\Documents\GitHub\COS226_Princeton_University\Assignment6\test" />
+      <recent name="C:\Users\ryan0\Documents\GitHub\COS226_Princeton_University\Assignment6\target\test" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ryan0\Documents\GitHub\COS226_Princeton_University\Assignment6\Tests" />
     </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ryan0\Documents\GitHub\COS226_Princeton_University\Assignment6\src\test" />
-      <recent name="C:\Users\ryan0\Documents\GitHub\COS226_Princeton_University\Assignment6\test" />
-      <recent name="C:\Users\ryan0\Documents\GitHub\COS226_Princeton_University\Assignment6\target\test" />
-      <recent name="C:\Users\ryan0\Documents\GitHub\COS226_Princeton_University\Assignment6" />
-      <recent name="C:\Users\ryan0\Documents\GitHub\COS226_Princeton_University\Assignment6\target" />
-    </key>
   </component>
-  <component name="RunManager" selected="JUnit.WordNet_Test">
+  <component name="RunManager" selected="Application.main.ShortestCommonAncestor">
+    <configuration name="Outcast (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Outcast" />
+      <module name="COS 226" />
+      <option name="PROGRAM_PARAMETERS" value="resources/synsets.txt resources/hypernyms.txt" />
+      <method v="2" />
+    </configuration>
     <configuration name="Outcast" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Outcast" />
       <module name="COS 226" />
@@ -90,6 +96,12 @@
     <configuration default="true" type="Application" factoryName="Application">
       <method v="2" />
     </configuration>
+    <configuration name="main.ShortestCommonAncestor" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="main.ShortestCommonAncestor" />
+      <module name="COS 226" />
+      <option name="PROGRAM_PARAMETERS" value="resources/digraph25.txt" />
+      <method v="2" />
+    </configuration>
     <configuration name="WordNet_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="COS 226" />
       <option name="PACKAGE_NAME" value="" />
@@ -101,6 +113,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Outcast (1)" />
         <item itemvalue="JUnit.WordNet_Test" />
       </list>
     </recent_temporary>
@@ -115,10 +128,11 @@
     </todo-panel>
   </component>
   <component name="WindowStateProjectService">
-    <state x="400" y="114" key="#Project_Structure" timestamp="1598108341146">
-      <screen x="0" y="0" width="1838" height="1080" />
+    <state x="539" y="152" key="#Project_Structure" timestamp="1598230250332">
+      <screen x="0" y="0" width="2477" height="1440" />
     </state>
     <state x="400" y="114" key="#Project_Structure/0.0.1838.1080@0.0.1838.1080" timestamp="1598108341146" />
+    <state x="539" y="152" key="#Project_Structure/0.0.2477.1440@0.0.2477.1440" timestamp="1598230250332" />
     <state x="750" y="233" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1598058186809">
       <screen x="0" y="0" width="1838" height="1080" />
     </state>
@@ -131,29 +145,29 @@
       <screen x="0" y="0" width="1838" height="1080" />
     </state>
     <state x="696" y="294" key="FileChooserDialogImpl/0.0.1838.1080@0.0.1838.1080" timestamp="1598126843480" />
-    <state width="2476" height="420" key="GridCell.Tab.0.bottom" timestamp="1598222199697">
+    <state width="2476" height="216" key="GridCell.Tab.0.bottom" timestamp="1598240544578">
       <screen x="0" y="0" width="2477" height="1440" />
     </state>
     <state width="1824" height="369" key="GridCell.Tab.0.bottom/0.0.1838.1080@0.0.1838.1080" timestamp="1598108737020" />
-    <state width="2476" height="420" key="GridCell.Tab.0.bottom/0.0.2477.1440@0.0.2477.1440" timestamp="1598222199697" />
+    <state width="2476" height="216" key="GridCell.Tab.0.bottom/0.0.2477.1440@0.0.2477.1440" timestamp="1598240544578" />
     <state width="1572" height="417" key="GridCell.Tab.0.bottom/0.0.2498.1440@0.0.2498.1440" timestamp="1597968244868" />
-    <state width="2476" height="420" key="GridCell.Tab.0.center" timestamp="1598222199697">
+    <state width="2476" height="216" key="GridCell.Tab.0.center" timestamp="1598240544578">
       <screen x="0" y="0" width="2477" height="1440" />
     </state>
     <state width="1824" height="369" key="GridCell.Tab.0.center/0.0.1838.1080@0.0.1838.1080" timestamp="1598108737020" />
-    <state width="2476" height="420" key="GridCell.Tab.0.center/0.0.2477.1440@0.0.2477.1440" timestamp="1598222199697" />
+    <state width="2476" height="216" key="GridCell.Tab.0.center/0.0.2477.1440@0.0.2477.1440" timestamp="1598240544578" />
     <state width="1572" height="417" key="GridCell.Tab.0.center/0.0.2498.1440@0.0.2498.1440" timestamp="1597968244868" />
-    <state width="2476" height="420" key="GridCell.Tab.0.left" timestamp="1598222199697">
+    <state width="2476" height="216" key="GridCell.Tab.0.left" timestamp="1598240544578">
       <screen x="0" y="0" width="2477" height="1440" />
     </state>
     <state width="1824" height="369" key="GridCell.Tab.0.left/0.0.1838.1080@0.0.1838.1080" timestamp="1598108737020" />
-    <state width="2476" height="420" key="GridCell.Tab.0.left/0.0.2477.1440@0.0.2477.1440" timestamp="1598222199697" />
+    <state width="2476" height="216" key="GridCell.Tab.0.left/0.0.2477.1440@0.0.2477.1440" timestamp="1598240544578" />
     <state width="1572" height="417" key="GridCell.Tab.0.left/0.0.2498.1440@0.0.2498.1440" timestamp="1597968244868" />
-    <state width="2476" height="420" key="GridCell.Tab.0.right" timestamp="1598222199697">
+    <state width="2476" height="216" key="GridCell.Tab.0.right" timestamp="1598240544578">
       <screen x="0" y="0" width="2477" height="1440" />
     </state>
     <state width="1824" height="369" key="GridCell.Tab.0.right/0.0.1838.1080@0.0.1838.1080" timestamp="1598108737020" />
-    <state width="2476" height="420" key="GridCell.Tab.0.right/0.0.2477.1440@0.0.2477.1440" timestamp="1598222199697" />
+    <state width="2476" height="216" key="GridCell.Tab.0.right/0.0.2477.1440@0.0.2477.1440" timestamp="1598240544578" />
     <state width="1572" height="417" key="GridCell.Tab.0.right/0.0.2498.1440@0.0.2498.1440" timestamp="1597968244868" />
     <state width="1824" height="369" key="GridCell.Tab.1.bottom" timestamp="1598108737020">
       <screen x="0" y="0" width="1838" height="1080" />
@@ -171,11 +185,11 @@
       <screen x="0" y="0" width="1838" height="1080" />
     </state>
     <state width="1824" height="369" key="GridCell.Tab.1.right/0.0.1838.1080@0.0.1838.1080" timestamp="1598108737020" />
-    <state x="539" y="152" key="SettingsEditor" timestamp="1598222161633">
+    <state x="539" y="152" key="SettingsEditor" timestamp="1598231637272">
       <screen x="0" y="0" width="2477" height="1440" />
     </state>
     <state x="400" y="114" key="SettingsEditor/0.0.1838.1080@0.0.1838.1080" timestamp="1598126849473" />
-    <state x="539" y="152" key="SettingsEditor/0.0.2477.1440@0.0.2477.1440" timestamp="1598222161633" />
+    <state x="539" y="152" key="SettingsEditor/0.0.2477.1440@0.0.2477.1440" timestamp="1598231637272" />
     <state x="740" y="317" key="chooseDestDirectoryDialog" timestamp="1598108406901">
       <screen x="0" y="0" width="1838" height="1080" />
     </state>

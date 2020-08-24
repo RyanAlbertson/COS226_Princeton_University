@@ -4,7 +4,10 @@ import edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdOut;
 
 /**
+ * Finds a 'outcast' of a set of nouns. An outcast of some noun can be thought of
+ * as an antonym that's limited to the range of the given nouns.
  *
+ * @author Ryan Albertson
  */
 public class Outcast {
 
@@ -55,7 +58,7 @@ public class Outcast {
 
 
     /**
-     * Unit test.
+     * Test client.
      */
     public static void main(String[] args) {
 
@@ -68,8 +71,10 @@ public class Outcast {
             String[] nouns = in.readAllStrings();
             StdOut.println(args[t] + ": " + outcast.outcast(nouns));
 
-            // ShortestCommonAncestor.validate() is throwing exception bc theres a
-            // null value somewheres.
+            // TODO somehow nouns aren't being added to wordnet properly.
+
+
+            // java-algs4 main/Outcast resources/synsets.txt resources/hypernyms.txt resources/outcast5.txt resources/outcast8.txt resources/outcast11.txt
         }
     }
 }

@@ -181,8 +181,8 @@ public class ShortestCommonAncestor {
     /**
      * Returns index of shortest common ancestor synset of given sets of synsets.
      *
-     * @param v Set of synset indices.
-     * @param w Set of synset indices.
+     * @param subsetA Set of synset indices.
+     * @param subsetB Set of synset indices.
      */
     public int ancestorSubset(Iterable<Integer> subsetA, Iterable<Integer> subsetB) {
 
