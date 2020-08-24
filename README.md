@@ -24,7 +24,7 @@
        <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/percolation/specification.php"> Assignment 1 </a>
      </div>
      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment1">
-       <img src="./Assignment1/resources/logo.png" width = 300>
+       <img src="./Assignment1/src/resources/logo.png" width = 300>
      </a>
     </td>
     <td>
@@ -40,7 +40,7 @@
         <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/queues/specification.php"> Assignment 2 </a>
       </div>
       <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment2">
-        <img src="./Assignment2/resources/logo.png" width = 400>
+        <img src="./Assignment2/src/resources/logo.png" width = 400>
       </a>       
     </td>
     <td>
@@ -56,7 +56,7 @@
         <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/autocomplete/specification.php"> Assignment 3 </a>
       </div>
       <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment3">
-        <img src="./Assignment3/resources/logo.png" width = 300>
+        <img src="./Assignment3/src/resources/logo.png" width = 300>
       </a>       
     </td>
     <td>
@@ -72,7 +72,7 @@
         <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/8puzzle/specification.php"> Assignment 4 </a>
       </div>
       <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment4">
-        <img src="./Assignment4/resources/logo.png" width = 300>
+        <img src="./Assignment4/src/resources/logo.png" width = 300>
       </a>       
     </td>
     <td>
@@ -88,7 +88,7 @@
         <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/kdtree/specification.php"> Assignment 5 </a>
       </div>
       <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment5">
-        <img src="./Assignment5/resources/logo.png" width = 300>
+        <img src="./Assignment5/src/resources/logo.png" width = 300>
       </a>       
     </td>
     <td>
@@ -104,7 +104,7 @@
         <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/wordnet/specification.php"> Assignment 6 </a>
       </div>
       <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment6">
-        <img src="./Assignment6/resources/logo.png" width = 300>
+        <img src="./Assignment6/src/resources/logo.png" width = 300>
       </a>       
     </td>
     <td>
@@ -120,7 +120,7 @@
         <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/seam/specification.php"> Assignment 7 </a>
       </div>
       <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment7">
-        <img src="./Assignment7/resources/logo.png" width = 300>
+        <img src="./Assignment7/src/resources/logo.png" width = 300>
       </a>       
     </td>
     <td>
