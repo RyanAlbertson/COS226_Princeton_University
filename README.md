@@ -10,7 +10,8 @@
  Topics covered can be found [here](https://www.cs.princeton.edu/courses/archive/spring20/cos226/lectures.php), but I'll abstract more on the material below.  
  
  ### Java Assignments
- Most of the dependencies that I used are contained within the course's algs4.jar. This can be found, along with installation instructions, [at this link](https://algs4.cs.princeton.edu/code). The same link also has any needed java programs and libraries that may not be in the .JAR file.
+ Most of the dependencies that I used are contained within the course's algs4.jar. This can be found, along with installation instructions, [at this link](https://algs4.cs.princeton.edu/code). The same link also has any needed java programs and libraries that may not be in the .JAR file. Note that I littered much of the code with block comments because
+ I wanted my logic to be explicit for my grader.
  
  <table style="width:100%">
   <tr>
