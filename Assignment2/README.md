@@ -10,7 +10,7 @@
         <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/queues/specification.php"> Assignment 2 </a>
       </div>
       <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment2">
-        <img src="./resources/logo.png" width = 400>
+        <img src="./src/resources/logo.png" width = 400>
       </a>
     </td>
     <td>
