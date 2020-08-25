@@ -26,12 +26,6 @@
     <analyzeAfterCompile>true</analyzeAfterCompile>
     <toolWindowToFront>false</toolWindowToFront>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="106" />
-    <option name="y" value="23" />
-    <option name="width" value="938" />
-    <option name="height" value="765" />
-  </component>
   <component name="ProjectId" id="1gPgL4Gp81mxHNN0V9uHWAjPCOj" />
   <component name="ProjectViewState">
     <option name="abbreviatePackageNames" value="true" />
