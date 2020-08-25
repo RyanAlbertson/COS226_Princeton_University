@@ -372,7 +372,7 @@ public class Board {
             return (numInversions % 2) == 0;
         }
         
-        // src.main.Board size is even.
+        // If board size is even.
         return (numInversions + emptyRow) % 2 != 0;
     }
     
