@@ -204,6 +204,60 @@ public class SeamCarver {
         if (!keepTranspose && isTransposed) transpose();
 
 
+        int[] seam = new int[height()];
+
+        int[][]    edgeTo = new int[width()][height()];
+        double[][] distTo = new double[width()][height()];
+
+        // Initiate distTo to Infinity
+        for (int col = 0; col < width(); col++) {
+            for (int row = 1; row < height(); row++) {
+                distTo[col][row] = Double.POSITIVE_INFINITY;
+            }
+        }
+        // You should not need recursion. Note that the underlying DAG has such special structure
+        // that you don’t need to compute its topological order explicitly
+        // Run BFS (topological sort) for the implicit DAG to search energy and save at distTo[]
+        // The row-major or column-major traverse order make a difference here
+        for (int row = 1; row < height(); row++) {
+            for (int col = 0; col < width(); col++) {
+
+                if (col > 0 && distTo[col - 1][row] > energy[col - 1][row]
+                    + distTo[col][row - 1]) {
+
+                    distTo[col - 1][row] = energy[col - 1][row] + distTo[col][row - 1];
+                    edgeTo[col - 1][row] = col;
+                }
+                if (distTo[col][row] > energy[col][row]
+                    + distTo[col][row - 1]) {
+
+                    distTo[col][row] = energy[col][row] + distTo[col][row - 1];
+                    edgeTo[col][row] = col;
+                }
+                if (col < width() - 1 && distTo[col + 1][row] > energy[col + 1][row]
+                    + distTo[col][row - 1]) {
+
+                    distTo[col + 1][row] = energy[col + 1][row] + distTo[col][row - 1];
+                    edgeTo[col + 1][row] = col;
+                }
+            }
+        }
+        // Find the seam endpoint of minimum energy at the last line
+        for (int col = 1; col < width() - 1; col++) {
+            if (distTo[seam[height() - 2]][height() - 2] > distTo[col][height() - 2]) {
+                seam[height() - 2] = col;
+            }
+        }
+        // Use edgeTo to backtrack the path of minimum energy
+        for (int row = height() - 2; row > 0; row--) {
+            seam[row - 1] = edgeTo[seam[row]][row];
+        }
+        // Follow set at border of test examples
+        // helpful to reset energy when shifting array elements
+        // cutoff to be 0
+        seam[height() - 1] = Math.max(seam[height() - 2] - 1, 0);
+        
+        return seam;
     }
 
 
