@@ -28,6 +28,9 @@ public class SeamCarver {
     // True if current picture is transposed, false otherwise.
     private boolean isTransposed;
 
+    // Used for vertical methods calls from a horizontal method.
+    private boolean keepTranspose;
+
 
     /**
      * Constructs a {@code SeamCarver} using the given {@link Picture}.
@@ -37,7 +40,7 @@ public class SeamCarver {
      */
     public SeamCarver(Picture picture) {
 
-        if (picture == null) throw new IllegalArgumentException("'picture' is null.");
+        if (picture == null) throw new IllegalArgumentException("picture is null.");
 
         width  = picture.width();
         height = picture.height();
@@ -107,7 +110,7 @@ public class SeamCarver {
      */
     public Picture picture() {
 
-        //CHECK IF TRANSPOSED
+        if (isTransposed) transpose();
 
         Picture picture = new Picture(width, height);
 
@@ -118,6 +121,31 @@ public class SeamCarver {
             }
         }
         return picture;
+    }
+
+
+    /**
+     * Transposes the current picture.
+     */
+    private void transpose() {
+
+        // Swap individual pixels in rgb and energy arrays.
+        for (int col = 0; col < width; col++) {
+            for (int row = col + 1; row < height; row++) {
+                int temp1 = rgb[col][row];
+                rgb[col][row] = rgb[row][col];
+                rgb[row][col] = temp1;
+                double temp2 = energy[col][row];
+                energy[col][row] = energy[row][col];
+                energy[row][col] = temp2;
+            }
+        }
+        // Flip axes.
+        int temp = width;
+        width  = height;
+        height = temp;
+
+        isTransposed = !isTransposed;
     }
 
 
@@ -149,37 +177,60 @@ public class SeamCarver {
      */
     public double energy(int col, int row) {
 
-        //CHECK IF TRANSPOSED
-
         validate(col, row);
         return energy[col][row];
 
     }
 
 
-    // sequence of indices for horizontal seam
+    /**
+     * @return
+     */
     public int[] findHorizontalSeam() {
 
+        if (!isTransposed) transpose();
+        keepTranspose = true;
 
+        return findVerticalSeam();
     }
 
 
-    // sequence of indices for vertical seam
+    /**
+     * @return
+     */
     public int[] findVerticalSeam() {
 
+        // Only keep tranposition if horizontal method has called this.
+        if (!keepTranspose && isTransposed) transpose();
+
 
     }
 
 
-    // remove horizontal seam from current picture
+    /**
+     * @param seam
+     */
     public void removeHorizontalSeam(int[] seam) {
 
+        validate(seam);
 
+        // Transpose picture for use in the vertically oriented method.
+        if (!isTransposed) transpose();
+        keepTranspose = true;
+
+        removeVerticalSeam(seam);
     }
 
 
-    // remove vertical seam from current picture
+    /**
+     * @param seam
+     */
     public void removeVerticalSeam(int[] seam) {
+
+        validate(seam);
+
+        // Only keep transposition if horizontal method has called this.
+        if (!keepTranspose && isTransposed) transpose();
 
 
     }
@@ -193,6 +244,12 @@ public class SeamCarver {
      */
     private void validate(int col, int row) {
 
+        if (isTransposed) {
+            int temp = col;
+            col = row;
+            row = temp;
+        }
+
         if (col < 0 || col >= width) throw new IllegalArgumentException("col out of bounds");
         if (row < 0 || row >= height) throw new IllegalArgumentException("row out of bounds");
     }
@@ -205,7 +262,20 @@ public class SeamCarver {
      */
     private void validate(int[] seam) {
 
-
+        if (isTransposed) {
+            if (seam.length < 1 || seam.length >= width) {
+                throw new IllegalArgumentException("seam is out of bounds");
+            }
+        }
+        else if (seam.length < 1 || seam.length >= height) {
+            throw new IllegalArgumentException("seam is out of bounds");
+        }
+        for (int i = 0; i < seam.length; i++) {
+            validate(seam[i], i);
+            if (i > 0 && Math.abs(seam[i] - (seam[i] - 1)) > 1) {
+                throw new IllegalArgumentException("invalid seam");
+            }
+        }
     }
 
 

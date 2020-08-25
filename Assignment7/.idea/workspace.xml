@@ -75,10 +75,10 @@
       <screen x="0" y="0" width="2477" height="1440" />
     </state>
     <state x="869" y="436" key="FileChooserDialogImpl/0.0.2477.1440@0.0.2477.1440" timestamp="1598222521104" />
-    <state x="1119" y="215" width="1339" height="1063" key="SettingsEditor" timestamp="1598328915324">
+    <state x="1119" y="215" width="1339" height="1063" key="SettingsEditor" timestamp="1598371720800">
       <screen x="0" y="0" width="2477" height="1440" />
     </state>
-    <state x="1119" y="215" width="1339" height="1063" key="SettingsEditor/0.0.2477.1440/-1080.243.1080.1920@0.0.2477.1440" timestamp="1598328915324" />
+    <state x="1119" y="215" width="1339" height="1063" key="SettingsEditor/0.0.2477.1440/-1080.243.1080.1920@0.0.2477.1440" timestamp="1598371720800" />
     <state x="719" y="294" key="SettingsEditor/0.0.2477.1440@0.0.2477.1440" timestamp="1598222559725" />
     <state x="1010" y="450" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1598329024438">
       <screen x="0" y="0" width="2477" height="1440" />
@@ -88,21 +88,5 @@
       <screen x="0" y="0" width="2477" height="1440" />
     </state>
     <state x="896" y="341" key="run.anything.popup/0.0.2477.1440/-1080.243.1080.1920@0.0.2477.1440" timestamp="1598323737429" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/SeamCarver.java</url>
-          <line>151</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/SeamCarver.java</url>
-          <line>109</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
