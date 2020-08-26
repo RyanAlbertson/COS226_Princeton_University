@@ -99,11 +99,11 @@ public class SeamCarver {
      */
     private int getRGB(int col, int row, String component) {
 
-        if (isTransposed) {
-            int temp = col;
-            col = row;
-            row = temp;
-        }
+        // if (isTransposed) {
+        //     int temp = col;
+        //     col = row;
+        //     row = temp;
+        // }
 
         if (component.equals(R)) return (rgb[col][row] >> 16) & 0xFF;
         if (component.equals(G)) return (rgb[col][row] >> 8) & 0xFF;
@@ -118,7 +118,7 @@ public class SeamCarver {
      */
     public Picture picture() {
 
-        if (isTransposed) transpose();
+        // if (isTransposed) transpose();
 
         Picture picture = new Picture(width, height);
 
@@ -164,7 +164,7 @@ public class SeamCarver {
             }
         }
 
-        isTransposed = !isTransposed;
+        // isTransposed = !isTransposed;
     }
 
 
@@ -206,8 +206,9 @@ public class SeamCarver {
      */
     public int[] findHorizontalSeam() {
 
-        if (!isTransposed) transpose();
-        keepTranspose = true;
+        // if (!isTransposed) transpose();
+        // keepTranspose = true;
+        transpose();
         int[] seam = findVerticalSeam();
         transpose();
         return seam;
@@ -221,7 +222,7 @@ public class SeamCarver {
     public int[] findVerticalSeam() {
 
         // Only keep tranposition if findHorizontalSeam() has called this.
-        if (!keepTranspose && isTransposed) transpose();
+        // if (!keepTranspose && isTransposed) transpose();
 
         int[] seam = new int[height()];
 
@@ -294,13 +295,12 @@ public class SeamCarver {
      */
     public void removeHorizontalSeam(int[] seam) {
 
-        validate(seam);
-
         // Transpose picture for use in the vertically oriented method.
-        if (!isTransposed) transpose();
-        keepTranspose = true;
-
+        // if (!isTransposed) transpose();
+        transpose();
+        // keepTranspose = true;
         removeVerticalSeam(seam);
+        transpose();
     }
 
 
@@ -314,16 +314,17 @@ public class SeamCarver {
         validate(seam);
 
         // Only keep transposition if horizontal method has called this.
-        if (!keepTranspose && isTransposed) transpose();
+        // if (!keepTranspose && isTransposed) transpose();
 
+        // Remove the seam. For pixels to the right of the seam, slide left by 1.
         for (int row = 0; row < height(); row++) {
 
-            // Remove the seam pixel. Ignore right border pixel, width-- will remove it.
-            if (!(seam[row] == height() - 1)) {
+            // Disregard right border pixel, width-- will ignore it.
+            if (!(seam[row] == width() - 1)) {
+                //I THINK WIDTH AND HEIGHT ARE BEING MISREFERENCED HERE
                 System.arraycopy(rgb[row], seam[row] + 1, rgb[row], seam[row],
-                                 width() - seam[row] - 1);
+                                 width() - 1 - seam[row]);
             }
-
         }
         width--;
 
@@ -365,14 +366,16 @@ public class SeamCarver {
      */
     private void validate(int[] seam) {
 
-        if (isTransposed) {
-            if (seam.length < 1 || seam.length > width) {
-                throw new IllegalArgumentException("seam is out of bounds");
-            }
-        }
-        else if (seam.length < 1 || seam.length > height) {
-            throw new IllegalArgumentException("seam is out of bounds");
-        }
+        if (seam == null) throw new IllegalArgumentException("seam is null");
+
+        // if (isTransposed) {
+        //     if (seam.length > width) {
+        //         throw new IllegalArgumentException("seam is out of bounds");
+        //     }
+        // }
+        // else if (seam.length > height) {
+        //     throw new IllegalArgumentException("seam is out of bounds");
+        // }
 
         for (int i = 0; i < seam.length; i++) {
             validate(seam[i], i);
