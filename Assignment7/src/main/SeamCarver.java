@@ -3,7 +3,10 @@ package main;
 import edu.princeton.cs.algs4.Picture;
 
 /**
+ * Uses a content-aware image resizing algorithm to resize an image such that the
+ * least significant parts are removed first.
  *
+ * @author Ryan Albertson
  */
 public class SeamCarver {
 
@@ -24,12 +27,6 @@ public class SeamCarver {
     // Store current width and height of picture.
     private int width;
     private int height;
-
-    // True if current picture is transposed, false otherwise.
-    private boolean isTransposed;
-
-    // Used for vertical methods calls from a horizontal method.
-    private boolean keepTranspose;
 
 
     /**
@@ -99,12 +96,6 @@ public class SeamCarver {
      */
     private int getRGB(int col, int row, String component) {
 
-        // if (isTransposed) {
-        //     int temp = col;
-        //     col = row;
-        //     row = temp;
-        // }
-
         if (component.equals(R)) return (rgb[col][row] >> 16) & 0xFF;
         if (component.equals(G)) return (rgb[col][row] >> 8) & 0xFF;
         if (component.equals(B)) return rgb[col][row] & 0xFF;
@@ -118,14 +109,12 @@ public class SeamCarver {
      */
     public Picture picture() {
 
-        // if (isTransposed) transpose();
-
-        Picture picture = new Picture(width, height);
+        Picture picture = new Picture(width(), height());
 
         // Fill in picture using current RGB values.
         for (int col = 0; col < width(); col++) {
-            for (int row = 0; row < height; row++) {
-                picture.setRGB(col, row, rgb[row][col]);
+            for (int row = 0; row < height(); row++) {
+                picture.setRGB(col, row, rgb[col][row]);
             }
         }
         return picture;
@@ -163,8 +152,6 @@ public class SeamCarver {
                 energy[col][row] = energyCopy[row][col];
             }
         }
-
-        // isTransposed = !isTransposed;
     }
 
 
@@ -206,9 +193,6 @@ public class SeamCarver {
      */
     public int[] findHorizontalSeam() {
 
-        // if (!isTransposed) transpose();
-        // keepTranspose = true;
-        transpose();
         int[] seam = findVerticalSeam();
         transpose();
         return seam;
@@ -221,15 +205,12 @@ public class SeamCarver {
      */
     public int[] findVerticalSeam() {
 
-        // Only keep tranposition if findHorizontalSeam() has called this.
-        // if (!keepTranspose && isTransposed) transpose();
-
         int[] seam = new int[height()];
 
-        // Tracks columns of least-energy paths.
+        // Tracks columns of least-energy seams.
         int[][] edgeTo = new int[width()][height()];
 
-        // Store cumulative energy of the seams that goes through each pixel.
+        // Store cumulative energy of the seams that go through each pixel.
         double[][] distTo = new double[width()][height()];
 
         // Initialize all distances to infinity, except top row.
@@ -240,24 +221,21 @@ public class SeamCarver {
             }
         }
 
-        // Builds least-energy paths through picture.
+        // Builds least-energy seams through picture.
         for (int row = 1; row < height(); row++) {
             for (int col = 0; col < width(); col++) {
 
-                //
                 if (col > 0 && distTo[col - 1][row] > (energy[col - 1][row]
                     + distTo[col][row - 1])) {
 
                     distTo[col - 1][row] = energy[col - 1][row] + distTo[col][row - 1];
                     edgeTo[col - 1][row] = col;
                 }
-                //
                 if (distTo[col][row] > (energy[col][row] + distTo[col][row - 1])) {
 
                     distTo[col][row] = energy[col][row] + distTo[col][row - 1];
                     edgeTo[col][row] = col;
                 }
-                //
                 if (col < width() - 1 && distTo[col + 1][row] > (energy[col + 1][row]
                     + distTo[col][row - 1])) {
 
@@ -279,11 +257,6 @@ public class SeamCarver {
         for (int row = height() - 1; row > 0; row--) {
             seam[row - 1] = edgeTo[seam[row]][row];
         }
-        // // Follow set at border of test examples
-        // // helpful to reset energy when shifting array elements
-        // // cutoff to be 0
-        // seam[height() - 1] = Math.max(seam[height() - 2] - 1, 0);
-
         return seam;
     }
 
@@ -295,10 +268,7 @@ public class SeamCarver {
      */
     public void removeHorizontalSeam(int[] seam) {
 
-        // Transpose picture for use in the vertically oriented method.
-        // if (!isTransposed) transpose();
         transpose();
-        // keepTranspose = true;
         removeVerticalSeam(seam);
         transpose();
     }
@@ -313,25 +283,28 @@ public class SeamCarver {
 
         validate(seam);
 
-        // Only keep transposition if horizontal method has called this.
-        // if (!keepTranspose && isTransposed) transpose();
-
-        // Remove the seam. For pixels to the right of the seam, slide left by 1.
+        // Remove the seam.
         for (int row = 0; row < height(); row++) {
 
-            // Disregard right border pixel, width-- will ignore it.
+            // Disregard right border pixel, 'width--' will ignore it.
             if (!(seam[row] == width() - 1)) {
-                //I THINK WIDTH AND HEIGHT ARE BEING MISREFERENCED HERE
-                System.arraycopy(rgb[row], seam[row] + 1, rgb[row], seam[row],
-                                 width() - 1 - seam[row]);
+
+                // For pixels to the right of the seam, move left by 1.
+                for (int col = seam[row]; col < width() - 1; col++) {
+                    rgb[col][row] = rgb[col + 1][row];
+                }
             }
         }
         width--;
 
         // Update energy for pixels adjacent to the removed seam.
         for (int row = 1; row < height - 1; row++) {
-            if (seam[row] > 1) energy[seam[row] - 1][row] = calcPixelEnergy(seam[row] - 1, row);
-            if (seam[row] < width - 1) energy[seam[row]][row] = calcPixelEnergy(seam[row], row);
+            if (seam[row] > 1) {
+                energy[seam[row] - 1][row] = calcPixelEnergy(seam[row] - 1, row);
+            }
+            if (seam[row] < width - 1) {
+                energy[seam[row]][row] = calcPixelEnergy(seam[row], row);
+            }
         }
     }
 
@@ -345,12 +318,6 @@ public class SeamCarver {
      *                                  out of bounds.
      */
     private void validate(int col, int row) {
-
-        // if (isTransposed) {
-        //     int temp = col;
-        //     col = row;
-        //     row = temp;
-        // }
 
         if (col < 0 || col >= width) throw new IllegalArgumentException("col out of bounds");
         if (row < 0 || row >= height) throw new IllegalArgumentException("row out of bounds");
@@ -368,15 +335,6 @@ public class SeamCarver {
 
         if (seam == null) throw new IllegalArgumentException("seam is null");
 
-        // if (isTransposed) {
-        //     if (seam.length > width) {
-        //         throw new IllegalArgumentException("seam is out of bounds");
-        //     }
-        // }
-        // else if (seam.length > height) {
-        //     throw new IllegalArgumentException("seam is out of bounds");
-        // }
-
         for (int i = 0; i < seam.length; i++) {
             validate(seam[i], i);
             if (i > 0 && Math.abs(seam[i] - (seam[i] - 1)) > 1) {
@@ -385,10 +343,6 @@ public class SeamCarver {
         }
     }
 
-
-    /**
-     * Unit test.
-     */
     public static void main(String[] args) {
 
     }
