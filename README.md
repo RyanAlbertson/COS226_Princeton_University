@@ -38,9 +38,9 @@
   <tr>
     <td>
       <div align="center">
-        <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/queues/specification.php"> Assignment 2 </a>
+        <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment2"> Assignment 2 </a>
       </div>
-      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment2">
+      <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/queues/specification.php">
         <img src="./Assignment2/src/resources/logo.png" width = 400>
       </a>       
     </td>
@@ -54,9 +54,9 @@
    <tr>
     <td>
       <div align="center">
-        <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/autocomplete/specification.php"> Assignment 3 </a>
+        <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment3"> Assignment 3 </a>
       </div>
-      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment3">
+      <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/autocomplete/specification.php">
         <img src="./Assignment3/src/resources/logo.png" width = 300>
       </a>       
     </td>
@@ -70,9 +70,9 @@
    <tr>
     <td>
       <div align="center">
-        <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/8puzzle/specification.php"> Assignment 4 </a>
+        <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment4"> Assignment 4 </a>
       </div>
-      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment4">
+      <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/8puzzle/specification.php">
         <img src="./Assignment4/src/resources/logo.png" width = 300>
       </a>       
     </td>
@@ -86,9 +86,9 @@
    <tr>
     <td>
       <div align="center">
-        <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/kdtree/specification.php"> Assignment 5 </a>
+        <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment5"> Assignment 5 </a>
       </div>
-      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment5">
+      <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/kdtree/specification.php">
         <img src="./Assignment5/src/resources/logo.png" width = 300>
       </a>       
     </td>
@@ -102,9 +102,9 @@
    <tr>
     <td>
       <div align="center">
-        <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/wordnet/specification.php"> Assignment 6 </a>
+        <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment6"> Assignment 6 </a>
       </div>
-      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment6">
+      <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/wordnet/specification.php">
         <img src="./Assignment6/src/resources/logo.png" width = 300>
       </a>       
     </td>
@@ -118,9 +118,9 @@
    <tr>
     <td>
       <div align="center">
-        <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/seam/specification.php"> Assignment 7 </a>
+        <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment7"> Assignment 7 </a>
       </div>
-      <a href="https://github.com/ryanalbertson/COS226_Princeton_University/tree/master/Assignment7">
+      <a href="https://www.cs.princeton.edu/courses/archive/spring20/cos226/assignments/seam/specification.php">
         <img src="./Assignment7/src/resources/logo.png" width = 300>
       </a>       
     </td>
