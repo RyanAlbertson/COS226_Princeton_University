@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1e4f978-b3bd-4ae1-84e9-9e1170bce808" name="Default" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="DISPLAY_NOTIFICATION_POPUP" value="false" />
+    <option name="CLEAR_OUTPUT_DIRECTORY" value="false" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="JUnit4 Test Class" />
+      </list>
+    </option>
+    <option name="SCHEME" value="Project" />
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <analyzeAfterCompile>true</analyzeAfterCompile>
+    <toolWindowToFront>false</toolWindowToFront>
+  </component>
+  <component name="ProjectId" id="1gIMiYADzBHqkqeN9pBXmb09WKB" />
+  <component name="ProjectViewState">
+    <option name="abbreviatePackageNames" value="true" />
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showModules" value="false" />
+    <option name="sortByType" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowMessages.ShowToolbar" value="false" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.saveactions" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ryan0\Documents\GitHub\COS226_Princeton_University\Assignment6\target\production\main" />
+      <recent name="C:\Users\ryan0\Documents\GitHub\COS226_Princeton_University\Assignment6\src\main" />
+      <recent name="C:\Users\ryan0\Documents\GitHub\COS226_Princeton_University\Assignment6\src\test" />
+      <recent name="C:\Users\ryan0\Documents\GitHub\COS226_Princeton_University\Assignment6\test" />
+      <recent name="C:\Users\ryan0\Documents\GitHub\COS226_Princeton_University\Assignment6\target\test" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ryan0\Documents\GitHub\COS226_Princeton_University\Assignment6\Tests" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.main.ShortestCommonAncestor">
+    <configuration name="Outcast (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.Outcast" />
+      <module name="COS 226" />
+      <option name="PROGRAM_PARAMETERS" value="resources/synsets.txt resources/hypernyms.txt" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Outcast" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="Outcast" />
+      <module name="COS 226" />
+      <option name="PROGRAM_PARAMETERS" value="outcast5.txt" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ShortestCommonAncestor" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ShortestCommonAncestor" />
+      <module name="COS 226" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <method v="2" />
+    </configuration>
+    <configuration name="main.ShortestCommonAncestor" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="main.ShortestCommonAncestor" />
+      <module name="COS 226" />
+      <option name="PROGRAM_PARAMETERS" value="resources/digraph25.txt" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WordNet_Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="COS 226" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="WordNet_Test" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Outcast (1)" />
+        <item itemvalue="JUnit.WordNet_Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="539" y="152" key="#Project_Structure" timestamp="1598230250332">
+      <screen x="0" y="0" width="2477" height="1440" />
+    </state>
+    <state x="400" y="114" key="#Project_Structure/0.0.1838.1080@0.0.1838.1080" timestamp="1598108341146" />
+    <state x="539" y="152" key="#Project_Structure/0.0.2477.1440@0.0.2477.1440" timestamp="1598230250332" />
+    <state x="750" y="233" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1598058186809">
+      <screen x="0" y="0" width="1838" height="1080" />
+    </state>
+    <state x="750" y="233" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.0.1838.1080@0.0.1838.1080" timestamp="1598058186809" />
+    <state x="697" y="408" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1598108003217">
+      <screen x="0" y="0" width="1838" height="1080" />
+    </state>
+    <state x="697" y="408" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1838.1080@0.0.1838.1080" timestamp="1598108003217" />
+    <state x="696" y="294" key="FileChooserDialogImpl" timestamp="1598126843480">
+      <screen x="0" y="0" width="1838" height="1080" />
+    </state>
+    <state x="696" y="294" key="FileChooserDialogImpl/0.0.1838.1080@0.0.1838.1080" timestamp="1598126843480" />
+    <state width="2476" height="216" key="GridCell.Tab.0.bottom" timestamp="1598240544578">
+      <screen x="0" y="0" width="2477" height="1440" />
+    </state>
+    <state width="1824" height="369" key="GridCell.Tab.0.bottom/0.0.1838.1080@0.0.1838.1080" timestamp="1598108737020" />
+    <state width="2476" height="216" key="GridCell.Tab.0.bottom/0.0.2477.1440@0.0.2477.1440" timestamp="1598240544578" />
+    <state width="1572" height="417" key="GridCell.Tab.0.bottom/0.0.2498.1440@0.0.2498.1440" timestamp="1597968244868" />
+    <state width="2476" height="216" key="GridCell.Tab.0.center" timestamp="1598240544578">
+      <screen x="0" y="0" width="2477" height="1440" />
+    </state>
+    <state width="1824" height="369" key="GridCell.Tab.0.center/0.0.1838.1080@0.0.1838.1080" timestamp="1598108737020" />
+    <state width="2476" height="216" key="GridCell.Tab.0.center/0.0.2477.1440@0.0.2477.1440" timestamp="1598240544578" />
+    <state width="1572" height="417" key="GridCell.Tab.0.center/0.0.2498.1440@0.0.2498.1440" timestamp="1597968244868" />
+    <state width="2476" height="216" key="GridCell.Tab.0.left" timestamp="1598240544578">
+      <screen x="0" y="0" width="2477" height="1440" />
+    </state>
+    <state width="1824" height="369" key="GridCell.Tab.0.left/0.0.1838.1080@0.0.1838.1080" timestamp="1598108737020" />
+    <state width="2476" height="216" key="GridCell.Tab.0.left/0.0.2477.1440@0.0.2477.1440" timestamp="1598240544578" />
+    <state width="1572" height="417" key="GridCell.Tab.0.left/0.0.2498.1440@0.0.2498.1440" timestamp="1597968244868" />
+    <state width="2476" height="216" key="GridCell.Tab.0.right" timestamp="1598240544578">
+      <screen x="0" y="0" width="2477" height="1440" />
+    </state>
+    <state width="1824" height="369" key="GridCell.Tab.0.right/0.0.1838.1080@0.0.1838.1080" timestamp="1598108737020" />
+    <state width="2476" height="216" key="GridCell.Tab.0.right/0.0.2477.1440@0.0.2477.1440" timestamp="1598240544578" />
+    <state width="1572" height="417" key="GridCell.Tab.0.right/0.0.2498.1440@0.0.2498.1440" timestamp="1597968244868" />
+    <state width="1824" height="369" key="GridCell.Tab.1.bottom" timestamp="1598108737020">
+      <screen x="0" y="0" width="1838" height="1080" />
+    </state>
+    <state width="1824" height="369" key="GridCell.Tab.1.bottom/0.0.1838.1080@0.0.1838.1080" timestamp="1598108737020" />
+    <state width="1824" height="369" key="GridCell.Tab.1.center" timestamp="1598108737020">
+      <screen x="0" y="0" width="1838" height="1080" />
+    </state>
+    <state width="1824" height="369" key="GridCell.Tab.1.center/0.0.1838.1080@0.0.1838.1080" timestamp="1598108737020" />
+    <state width="1824" height="369" key="GridCell.Tab.1.left" timestamp="1598108737020">
+      <screen x="0" y="0" width="1838" height="1080" />
+    </state>
+    <state width="1824" height="369" key="GridCell.Tab.1.left/0.0.1838.1080@0.0.1838.1080" timestamp="1598108737020" />
+    <state width="1824" height="369" key="GridCell.Tab.1.right" timestamp="1598108737020">
+      <screen x="0" y="0" width="1838" height="1080" />
+    </state>
+    <state width="1824" height="369" key="GridCell.Tab.1.right/0.0.1838.1080@0.0.1838.1080" timestamp="1598108737020" />
+    <state x="539" y="152" key="SettingsEditor" timestamp="1598296765442">
+      <screen x="0" y="0" width="2477" height="1440" />
+    </state>
+    <state x="400" y="114" key="SettingsEditor/0.0.1838.1080@0.0.1838.1080" timestamp="1598126849473" />
+    <state x="539" y="152" key="SettingsEditor/0.0.2477.1440@0.0.2477.1440" timestamp="1598296765442" />
+    <state x="740" y="317" key="chooseDestDirectoryDialog" timestamp="1598108406901">
+      <screen x="0" y="0" width="1838" height="1080" />
+    </state>
+    <state x="740" y="317" key="chooseDestDirectoryDialog/0.0.1838.1080@0.0.1838.1080" timestamp="1598108406901" />
+    <state x="539" y="433" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1598103940095">
+      <screen x="0" y="0" width="1838" height="1080" />
+    </state>
+    <state x="539" y="433" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1838.1080@0.0.1838.1080" timestamp="1598103940095" />
+    <state x="691" y="302" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1598103922117">
+      <screen x="0" y="0" width="1838" height="1080" />
+    </state>
+    <state x="691" y="302" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1838.1080@0.0.1838.1080" timestamp="1598103922117" />
+    <state x="1374" y="328" width="672" height="678" key="search.everywhere.popup" timestamp="1597938160958">
+      <screen x="0" y="0" width="2498" height="1440" />
+    </state>
+    <state x="1374" y="328" width="672" height="678" key="search.everywhere.popup/0.0.2498.1440@0.0.2498.1440" timestamp="1597938160958" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/WordNet.java</url>
+          <line>112</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
