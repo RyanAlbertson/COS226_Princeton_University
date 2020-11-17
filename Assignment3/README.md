@@ -14,7 +14,7 @@
       </a>
     </td>
     <td>
-      <div align="center"> src.main.Autocomplete feature for user queries </div>
+      <div align="center"> Autocomplete feature for user queries </div>
     </td>
     <td>
       <div align="center"> selection sort, insertion sort, binary search, mergesort, quicksort, Java comparators </div>
