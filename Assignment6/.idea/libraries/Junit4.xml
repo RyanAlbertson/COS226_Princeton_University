@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Junit4">
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/../../../../../../Junit4" />
+      <root url="file://$PROJECT_DIR$/../../../Junit4" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
     <excluded>
-      <root url="jar://$PROJECT_DIR$/../../../../../../Junit4/junit-4.13.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../Junit4/junit-4.13.jar!/" />
     </excluded>
-    <jarDirectory url="file://$PROJECT_DIR$/../../../../../../Junit4" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../Junit4" recursive="false" />
   </library>
 </component>
